@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+<web>Test</web>
+<name>C-Toggle</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1266717254000</creationDate>
+<date>1266717254000</date>
+<contentUpdateDate>1266717254000</contentUpdateDate>
+<version>1.1</version>
+<title>CSS Test: Toggle</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<object>
+<class>
+<name>Blog.BlogClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<blogType>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>blogType</name>
+<number>5</number>
+<picker>0</picker>
+<prettyName>The Blog type</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</blogType>
+<description>
+<contenttype>FullyRenderedText</contenttype>
+<customDisplay></customDisplay>
+<editor>---</editor>
+<name>description</name>
+<number>2</number>
+<picker>0</picker>
+<prettyName>Description</prettyName>
+<rows>5</rows>
+<size>60</size>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</description>
+<displayType>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>displayType</name>
+<number>3</number>
+<picker>0</picker>
+<prettyName>Index display</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</displayType>
+<itemsPerPage>
+<customDisplay></customDisplay>
+<name>itemsPerPage</name>
+<number>4</number>
+<numberType>integer</numberType>
+<prettyName>Items per page (only in the Paginated display mode)</prettyName>
+<size>2</size>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
+</itemsPerPage>
+<title>
+<customDisplay></customDisplay>
+<name>title</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Blog title</prettyName>
+<size>30</size>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</title>
+</class>
+<name>Test.C-Toggle</name>
+<number>0</number>
+<className>Blog.BlogClass</className>
+<guid>0c5abf3b-b603-4f30-a2f1-13923c93d02a</guid>
+<property>
+<blogType></blogType>
+</property>
+<property>
+<description>&lt;div id="trigger"&gt;
+ &lt;a href="#" id="showTrigger"&gt;Show panel&lt;/a&gt;
+ &lt;a href="#" id="hideTrigger"&gt;Hide panel&lt;/a&gt;
+ &lt;div id="panel"&gt;
+    The panel content is displayed here.
+ &lt;/div&gt;
+&lt;/div&gt;</description>
+</property>
+<property>
+<displayType></displayType>
+</property>
+<property>
+<itemsPerPage></itemsPerPage>
+</property>
+<property>
+<title></title>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.StyleSheetExtension</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<cache>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>cache</name>
+<number>5</number>
+<prettyName>Caching policy</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>long|short|default|forbid</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</cache>
+<code>
+<name>code</name>
+<number>2</number>
+<prettyName>Code</prettyName>
+<rows>20</rows>
+<size>50</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</code>
+<name>
+<name>name</name>
+<number>1</number>
+<prettyName>Name</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</name>
+<parse>
+<displayFormType>select</displayFormType>
+<displayType>yesno</displayType>
+<name>parse</name>
+<number>4</number>
+<prettyName>Parse content</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</parse>
+<use>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>use</name>
+<number>3</number>
+<prettyName>Use this extension</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</use>
+</class>
+<name>Test.C-Toggle</name>
+<number>0</number>
+<className>XWiki.StyleSheetExtension</className>
+<guid>8ed0a1e9-5caa-40e5-8729-dbc6054439bc</guid>
+<property>
+<cache>forbid</cache>
+</property>
+<property>
+<code>#trigger {
+  width: 200px;
+  border: 2px solid #AAA;
+}
+#showTrigger, #hideTrigger {
+  background: #AAA;
+  color: #FFF;
+  font-weight: bold;
+  display: block;
+  padding: 4px 8px;
+}
+#panel {
+  height: 100px;
+  padding: 4px 8px;
+}</code>
+</property>
+<property>
+<name></name>
+</property>
+<property>
+<parse>0</parse>
+</property>
+<property>
+<use>currentPage</use>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.XWikiRights</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<allow>
+<defaultValue>1</defaultValue>
+<displayFormType>select</displayFormType>
+<displayType>allow</displayType>
+<name>allow</name>
+<number>4</number>
+<prettyName>Allow/Deny</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</allow>
+<groups>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>groups</name>
+<number>1</number>
+<prettyName>Groups</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<usesList>1</usesList>
+<classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
+</groups>
+<levels>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>levels</name>
+<number>2</number>
+<prettyName>Levels</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>3</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
+</levels>
+<users>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>users</name>
+<number>3</number>
+<prettyName>Users</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<usesList>1</usesList>
+<classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
+</users>
+</class>
+<name>Test.C-Toggle</name>
+<number>0</number>
+<className>XWiki.XWikiRights</className>
+<guid>4c6def90-e2dd-4943-a3f5-88aaaec0ac90</guid>
+<property>
+<allow>1</allow>
+</property>
+<property>
+<groups></groups>
+</property>
+<property>
+<levels>view,edit</levels>
+</property>
+<property>
+<users>XWiki.XWikiGuest</users>
+</property>
+</object>
+<content>{{info}}**Task:** Set the href attributes of the show/hide links as necessary and write the CSS rules that "implement" the actual show/hide when clicking on the respective link. **No other changes allowed in the HTML. Do not use Javascript code in the href attribute.** The solution is only required to work in Mozilla Firefox 3.5+{{/info}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt; | &lt;a class="test-edit-link html" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;object=0&amp;property=description&amp;x-maximized=TEXTAREA[id=Blog.BlogClass_0_description]')"&gt;Edit HTML&lt;/a&gt;{{/html}}{{/velocity}}
+
+
+{{velocity}}{{code}}
+$doc.getObject('Blog.BlogClass').getProperty('description').value
+{{/code}}
+
+{{html}}
+$doc.getObject('Blog.BlogClass').getProperty('description').value
+{{/html}}{{/velocity}}</content>
+</xwikidoc>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc>
+<web>Test</web>
+<name>C-Links</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1266717254000</creationDate>
+<date>1266717254000</date>
+<contentUpdateDate>1266717254000</contentUpdateDate>
+<version>1.1</version>
+<title>CSS Test: Links</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<object>
+<class>
+<name>XWiki.StyleSheetExtension</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<cache>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>cache</name>
+<number>5</number>
+<prettyName>Caching policy</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>long|short|default|forbid</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</cache>
+<code>
+<name>code</name>
+<number>2</number>
+<prettyName>Code</prettyName>
+<rows>20</rows>
+<size>50</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</code>
+<name>
+<name>name</name>
+<number>1</number>
+<prettyName>Name</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</name>
+<parse>
+<displayFormType>select</displayFormType>
+<displayType>yesno</displayType>
+<name>parse</name>
+<number>4</number>
+<prettyName>Parse content</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</parse>
+<use>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>use</name>
+<number>3</number>
+<prettyName>Use this extension</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<unmodifiable>0</unmodifiable>
+<values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</use>
+</class>
+<name>Test.C-Links</name>
+<number>0</number>
+<className>XWiki.StyleSheetExtension</className>
+<guid>13bfad66-b0a9-4a91-b57a-a8bbd3a0fc05</guid>
+<property>
+<cache>forbid</cache>
+</property>
+<property>
+<code>/*
+ * To get the URL of the icon use:
+ * $xwiki.getSkinFile('icons/silk/world_go.gif')
+ * The icon's size is 16x16.
+ */</code>
+</property>
+<property>
+<name></name>
+</property>
+<property>
+<parse>1</parse>
+</property>
+<property>
+<use>currentPage</use>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.XWikiRights</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<allow>
+<defaultValue>1</defaultValue>
+<displayFormType>select</displayFormType>
+<displayType>allow</displayType>
+<name>allow</name>
+<number>4</number>
+<prettyName>Allow/Deny</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</allow>
+<groups>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>groups</name>
+<number>1</number>
+<prettyName>Groups</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<usesList>1</usesList>
+<classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
+</groups>
+<levels>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>levels</name>
+<number>2</number>
+<prettyName>Levels</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>3</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
+</levels>
+<users>
+<cache>0</cache>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>users</name>
+<number>3</number>
+<prettyName>Users</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<usesList>1</usesList>
+<classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
+</users>
+</class>
+<name>Test.C-Links</name>
+<number>0</number>
+<className>XWiki.XWikiRights</className>
+<guid>577dd7b4-b4bb-4f43-807d-bdd05bc362a1</guid>
+<property>
+<allow>1</allow>
+</property>
+<property>
+<groups></groups>
+</property>
+<property>
+<levels>view,edit</levels>
+</property>
+<property>
+<users>XWiki.XWikiGuest</users>
+</property>
+</object>
+<content>{{info}}**Without altering the HTML**, display an icon after all the **external** links in this document.{{/info}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{code}}
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="/xwiki/bin/view/Test/C11"&gt;Link to the previous test&lt;/a&gt; no icon here&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.w3.org"&gt;External link to W3C&lt;/a&gt; an icon should appear here&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/xwiki/bin/view/Main/"&gt;Link to the main page of this wiki&lt;/a&gt; no icon&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.google.com"&gt;External link to Google&lt;/a&gt; icon&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.xwiki.org"&gt;External link to XWiki.org&lt;/a&gt; icon here, too&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/xwiki/bin/view/XWiki/XWikiSyntax"&gt;Link to the XWiki syntax&lt;/a&gt; no icon&lt;/li&gt;
+&lt;/ul&gt;
+{{/code}}
+
+{{velocity}}
+{{html}}
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="$xwiki.getURL('Test.C11')"&gt;Link to the previous test&lt;/a&gt; no icon here&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.w3.org"&gt;External link to W3C&lt;/a&gt; an icon should appear here&lt;/li&gt;
+  &lt;li&gt;&lt;a href="$xwiki.getURL('Main.WebHome')"&gt;Link to the main page of this wiki&lt;/a&gt; no icon&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.google.com"&gt;External link to Google&lt;/a&gt; icon&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.xwiki.org"&gt;External link to XWiki.org&lt;/a&gt; icon here, too&lt;/li&gt;
+  &lt;li&gt;&lt;a href="$xwiki.getURL('XWiki.XWikiSyntax')"&gt;Link to the XWiki syntax&lt;/a&gt; no icon&lt;/li&gt;
+&lt;/ul&gt;
+{{/html}}
+{{/velocity}}</content>
+</xwikidoc>
