@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Test</web>
+<name>V-GCD</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1281602929000</creationDate>
+<date>1281603985000</date>
+<contentUpdateDate>1281603985000</contentUpdateDate>
+<version>1.1</version>
+<title>Velocity Test: Greatest Common Divisor</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<object>
+<class>
+<name>Blog.BlogClass</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<blogType>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>blogType</name>
+<number>5</number>
+<picker>0</picker>
+<prettyName>Blog type</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</blogType>
+<description>
+<contenttype>FullyRenderedText</contenttype>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<editor>---</editor>
+<name>description</name>
+<number>2</number>
+<picker>0</picker>
+<prettyName>Description</prettyName>
+<rows>5</rows>
+<size>60</size>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Not right.</validationMessage>
+<validationRegExp>/abc/</validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+</description>
+<displayType>
+<cache>0</cache>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>0</multiSelect>
+<name>displayType</name>
+<number>3</number>
+<picker>0</picker>
+<prettyName>Index display</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<separators> ,|</separators>
+<size>1</size>
+<sort>none</sort>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
+<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+</displayType>
+<itemsPerPage>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>itemsPerPage</name>
+<number>4</number>
+<numberType>integer</numberType>
+<prettyName>Items per page (only in the Paginated display mode)</prettyName>
+<size>2</size>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
+</itemsPerPage>
+<name>
+<disabled>0</disabled>
+<name>name</name>
+<number>6</number>
+<numberType>long</numberType>
+<prettyName>name</prettyName>
+<size>30</size>
+<unmodifiable>0</unmodifiable>
+<validationMessage>Not right 2.</validationMessage>
+<validationRegExp>/abc/</validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
+</name>
+<title>
+<customDisplay></customDisplay>
+<disabled>0</disabled>
+<name>title</name>
+<number>1</number>
+<picker>0</picker>
+<prettyName>Blog title</prettyName>
+<size>30</size>
+<tooltip></tooltip>
+<unmodifiable>0</unmodifiable>
+<validationMessage></validationMessage>
+<validationRegExp></validationRegExp>
+<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+</title>
+</class>
+<name>Test.V-GCD</name>
+<number>0</number>
+<className>Blog.BlogClass</className>
+<guid>59413a54-700e-430b-987c-4faa43ad1733</guid>
+<property>
+<blogType></blogType>
+</property>
+<property>
+<description>{{velocity}}
+#set($a = $mathtool.toInteger($request.a))
+#set($b = $mathtool.toInteger($request.b))
+## Write code here:
+
+{{/velocity}}</description>
+</property>
+<property>
+<displayType></displayType>
+</property>
+<property>
+<itemsPerPage></itemsPerPage>
+</property>
+<property>
+<title></title>
+</property>
+</object>
+<object>
+<class>
+<name>XWiki.XWikiRights</name>
+<customClass></customClass>
+<customMapping></customMapping>
+<defaultViewSheet></defaultViewSheet>
+<defaultEditSheet></defaultEditSheet>
+<defaultWeb></defaultWeb>
+<nameField></nameField>
+<validationScript></validationScript>
+<allow>
+<defaultValue>1</defaultValue>
+<disabled>0</disabled>
+<displayFormType>select</displayFormType>
+<displayType>allow</displayType>
+<name>allow</name>
+<number>4</number>
+<prettyName>Allow/Deny</prettyName>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+</allow>
+<groups>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>groups</name>
+<number>1</number>
+<prettyName>Groups</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<usesList>1</usesList>
+<classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
+</groups>
+<levels>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>levels</name>
+<number>2</number>
+<prettyName>Levels</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>3</size>
+<unmodifiable>0</unmodifiable>
+<classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
+</levels>
+<users>
+<cache>0</cache>
+<disabled>0</disabled>
+<displayType>select</displayType>
+<multiSelect>1</multiSelect>
+<name>users</name>
+<number>3</number>
+<prettyName>Users</prettyName>
+<relationalStorage>0</relationalStorage>
+<separator> </separator>
+<size>5</size>
+<unmodifiable>0</unmodifiable>
+<usesList>1</usesList>
+<classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
+</users>
+</class>
+<name>Test.V-GCD</name>
+<number>0</number>
+<className>XWiki.XWikiRights</className>
+<guid>2c414f9a-dc68-49ef-8c91-76d004a2294b</guid>
+<property>
+<allow>1</allow>
+</property>
+<property>
+<groups></groups>
+</property>
+<property>
+<levels>view,edit</levels>
+</property>
+<property>
+<users>XWiki.XWikiGuest</users>
+</property>
+</object>
+<content>{{info}}**Task:** Write a program that computes and prints the **Greatest Common Divisor** of two numbers, ##a## and ##b##, using Euclid's Algorithm. ##a## and ##b## will be given as parameter in the URL.{{/info}}
+
+For example:
+
+{{code}}
+a=0, b=0 =&gt; 0
+a=7, b=0 =&gt; 7
+a=7, b=5 =&gt; 1
+a=35, b=42 =&gt; 7
+a=42, b=35 =&gt; 7
+a=-42, b=35 =&gt; No negative number allowed
+{{/code}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;number=0&amp;property=description&amp;x-maximized=TEXTAREA[id=Blog.BlogClass_0_description]')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{velocity}}
+$doc.getObject('Blog.BlogClass').getProperty('description').value
+{{/velocity}}</content></xwikidoc>

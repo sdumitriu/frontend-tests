@@ -20,7 +20,7 @@
 <defaultTemplate></defaultTemplate>
 <validationScript></validationScript>
 <comment></comment>
-<minorEdit>true</minorEdit>
+<minorEdit>false</minorEdit>
 <syntaxId>xwiki/2.0</syntaxId>
 <hidden>false</hidden>
 <content>== CSS tests ==
@@ -34,12 +34,25 @@
 * [[C-Toggle]]
 * [[C-Penta]]
 * [[C-Rows]]
+* [[C-Cup]]
 * [[C-2Column]]
 * [[C-FizzBuzz]]
 * [[C-3Column]]
 
 == JS tests ==
 
+* [[J-Tick]]
+* [[J-Delete]]
+* [[J-Fubar]]
+* [[J-Comma]]
+* [[J-FunctionAlias]]
+* [[J-AssignmentOrder]]
+* [[J-This]]
+* [[J-Instance]]
+* [[J-Call]]
+* [[J-VariableHoisting]]
+* [[J-FunctionHoisting]]
+* [[J-HoistingOrder]]
 * [[J-Notifications]]
 * [[J-Confirm]]
 
@@ -47,5 +60,5 @@
 
 * [[V-FizzBuzz]]
 * [[V-Fibo]]
-* [[V-DocTree]]</content>
-</xwikidoc>
+* [[V-GCD]]
+* [[V-DocTree]]</content></xwikidoc>

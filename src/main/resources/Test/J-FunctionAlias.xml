@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Test</web>
+<name>J-FunctionAlias</name>
+<language></language>
+<defaultLanguage>en</defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>XWiki.Admin</creator>
+<author>XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>XWiki.Admin</contentAuthor>
+<creationDate>1281570937000</creationDate>
+<date>1281571036000</date>
+<contentUpdateDate>1281571036000</contentUpdateDate>
+<version>1.1</version>
+<title>JS Test: Function Alias</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<content>{{info}}**Task:** What does the following code return? Why?{{/info}}
+
+{{code language="javascript"}}
+var f = function g() { return 23; };
+typeof g();
+{{/code}}</content></xwikidoc>
