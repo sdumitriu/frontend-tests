@@ -36,9 +36,9 @@
   <version>1.0-SNAPSHOT</version>
   <description>Some tough tests for assessing the skills of a frontend developer.</description>
   <scm>
-    <connection>scm:svn:http://svn.xwiki.org/svnroot/xwiki/contrib/people/sdumitriu/xwiki-frontent-test/</connection>
-    <developerConnection>scm:svn:https://svn.xwiki.org/svnroot/xwiki/contrib/people/sdumitriu/xwiki-frontent-test/</developerConnection>
-    <url>http://svn.xwiki.org/svnroot/xwiki/contrib/people/sdumitriu/xwiki-frontent-test/</url>
+    <connection>scm:git:git://github.com/sdumitriu/frontend-tests.git</connection>
+    <developerConnection>scm:git:git@github.com:sdumitriu/frontend-tests.git</developerConnection>
+    <url>https://github.com/sdumitriu/frontend-tests</url>
   </scm>
   <distributionManagement>
     <repository>
@@ -48,4 +48,3 @@
     </repository>
   </distributionManagement>
 </project>
-
