@@ -126,9 +126,8 @@
 <blogType></blogType>
 </property>
 <property>
-<description>{{velocity}}
-## Write code here
-{{/velocity}}</description>
+<description>## Write code here
+</description>
 </property>
 <property>
 <displayType></displayType>
@@ -231,6 +230,6 @@ For example:
 
 
 {{velocity}}
-$doc.getObject('Blog.BlogClass').getProperty('description').value
+#evaluate($doc.getObject('Blog.BlogClass').getProperty('description').value)
 {{/velocity}}</content>
 </xwikidoc>

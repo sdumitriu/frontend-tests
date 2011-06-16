@@ -126,8 +126,7 @@
 <blogType></blogType>
 </property>
 <property>
-<description>{{velocity}}
-#macro(displayDocumentHierarchy)
+<description>#macro(displayDocumentHierarchy)
   ## This is how you get an ArrayList with all the documents in the wiki:
   #set($allDocuments = $xwiki.searchDocuments('where 1=1'))
   ## Just in case you might need some datatypes:
@@ -135,13 +134,10 @@
   ## #set($myHashMap = {})
   ## Write code here
 #end
-{{/velocity}}
 
-{{velocity}}
 {{html}}
 #displayDocumentHierarchy()
-{{/html}}
-{{/velocity}}</description>
+{{/html}}</description>
 </property>
 <property>
 <displayType></displayType>
@@ -277,6 +273,6 @@ Sample output (please display for each item its ##fullName## and ##parent## for 
 {{/code}}
 
 {{velocity}}
-$doc.getObject('Blog.BlogClass').getProperty('description').value
+#evaluate($doc.getObject('Blog.BlogClass').getProperty('description').value)
 {{/velocity}}</content>
 </xwikidoc>
