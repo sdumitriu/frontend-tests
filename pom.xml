@@ -35,11 +35,13 @@
   <name>Contrib - Frontend Developer Tests</name>
   <version>1.0-SNAPSHOT</version>
   <description>Some tough tests for assessing the skills of a frontend developer.</description>
+
   <scm>
     <connection>scm:git:git://github.com/sdumitriu/frontend-tests.git</connection>
     <developerConnection>scm:git:git@github.com:sdumitriu/frontend-tests.git</developerConnection>
     <url>https://github.com/sdumitriu/frontend-tests</url>
   </scm>
+
   <distributionManagement>
     <repository>
       <id>xwiki-staging</id>
@@ -47,10 +49,12 @@
       <url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
+
   <build>
     <defaultGoal>install</defaultGoal>
     <plugins>
-      <!-- We want to force packaging the license resources in the produced XWiki artifacts -->
+      <!-- We must re-specify the version of the license-resources package,
+           since ${project.version} is resolved to the current project's version, not the platform one -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-remote-resources-plugin</artifactId>
