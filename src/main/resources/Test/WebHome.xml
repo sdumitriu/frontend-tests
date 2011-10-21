@@ -65,6 +65,25 @@
 * [[V-GCD]]
 * [[V-DocTree]]
 
+== Support tests ==
+
+* [[J-Choose]]
+* [[J-JVM-JIT]]
+* [[J-Qualifiers]]
+* [[J-Runnable-Throwable]]
+* [[J-Equals]]
+* [[W-Containers]]
+* [[W-Mapping]]
+* [[W-Ports]]
+* [[W-Proxy]]
+* [[C-Properties]]
+* [[C-Broken]]
+* [[J-Variables]]
+* [[J-Code]]
+* [[A-Google]]
+* [[S-Priorities]]
+* [[S-Sendpage]]
+
 == Design tests ==
 * [[D-Summer]]
 * [[D-BogoSAT]]</content></xwikidoc>

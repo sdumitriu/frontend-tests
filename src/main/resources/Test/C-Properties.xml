@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Test</web>
+<name>C-Properties</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1319179033000</creationDate>
+<date>1319179200000</date>
+<contentUpdateDate>1319179200000</contentUpdateDate>
+<version>1.1</version>
+<title>CSS Test: Properties</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<content>{{info}}**Question:** What visual effects will the following CSS rules introduce when applied on a HTML page?
+
+{{code language="css"}}
+body, p, div, span {
+  background-color: blue;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}
+a, a:hover, a:visited {
+  color: blue;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+{{/code}}
+
+Are there possible issues caused by the css rules above?{{/info}}</content></xwikidoc>

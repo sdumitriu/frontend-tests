@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Test</web>
+<name>J-Variables</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1319179176000</creationDate>
+<date>1319179360000</date>
+<contentUpdateDate>1319179360000</contentUpdateDate>
+<version>1.1</version>
+<title>JS test: Variables</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<content>{{info}}**Task:** Considering the following function:
+
+{{code language="javascript"}}
+  function foo()            //1
+  {                         //2
+       var a = 5;           //3
+       b = 'Hello World';   //4
+  }                         //5
+{{/code}}
+
+**Question:** Which of the following are true:
+
+1. will not compile
+1. a is a local variable
+1. a is a global variable
+1. the javascript interpreter will throw an error on line 4
+1. b is a local variable
+1. b is a global variable
+{{/info}}</content></xwikidoc>

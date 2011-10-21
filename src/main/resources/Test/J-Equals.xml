@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Test</web>
+<name>J-Equals</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent></parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1319177812000</creationDate>
+<date>1319177956000</date>
+<contentUpdateDate>1319177956000</contentUpdateDate>
+<version>1.1</version>
+<title>Java test: Equals</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<content>{{info}}**Question:** Are there any potential issues with the following code?
+
+{{code language="java"}}
+String status = getStatus();
+if (status.equals("stopped")) {
+  // some code
+}
+if ("stopped".equals(status)) {
+  // some code
+}
+{{/code}}
+
+1. First ##if## statement might throw ##NullPointerException##
+1. The condition from second ##if## statement is always ##true##
+1. Second ##if## statement might throw ##NullPointerException##
+1, Code does not compile reporting incompatible types in first ##if## statement
+{{/info}}</content></xwikidoc>
