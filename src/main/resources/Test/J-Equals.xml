@@ -37,5 +37,5 @@ if ("stopped".equals(status)) {
 1. First ##if## statement might throw ##NullPointerException##
 1. The condition from second ##if## statement is always ##true##
 1. Second ##if## statement might throw ##NullPointerException##
-1, Code does not compile reporting incompatible types in first ##if## statement
+1. Code does not compile reporting incompatible types in first ##if## statement
 {{/info}}</content></xwikidoc>
