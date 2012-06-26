@@ -190,9 +190,9 @@
 </property>
 </object>
 <content>{{info}}**Without altering the HTML**, make the background color:
-* yellow for all the for all the cells in rows divisible by 3
-* blue for all the for all the cells in rows divisible by 5
-* green for all the for all the cells in rows divisible by both 3 and 5, **and** mark the name with an asterisk. Example of expected result:
+* yellow for all the cells in rows divisible by 3
+* blue for all the cells in rows divisible by 5
+* green for all the cells in rows divisible by both 3 and 5, **and** mark the name with an asterisk. Example of expected result:
 
 ##|...##
 ##| 44. | Name 44  | Value 44 |##
