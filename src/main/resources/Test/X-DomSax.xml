@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Test</web>
+<name>X-DomSax</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>Test.WebHome</parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1339604155000</creationDate>
+<date>1339604286000</date>
+<contentUpdateDate>1339604286000</contentUpdateDate>
+<version>1.1</version>
+<title>XML test: DOM versus SAX</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<content>{{info}}**Question:** What are DOM and SAX? Which one is better?{{/info}}</content></xwikidoc>

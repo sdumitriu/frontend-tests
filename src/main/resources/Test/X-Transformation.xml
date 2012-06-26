@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Test</web>
+<name>X-Transformation</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>Test.WebHome</parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1339604898000</creationDate>
+<date>1339605121000</date>
+<contentUpdateDate>1339605121000</contentUpdateDate>
+<version>1.1</version>
+<title>XML test: XSLT transformation</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<content>{{info}}**Question:** Given the following XSLT document:
+
+{{code}}
+&lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;xsl:template match='node()|@*'&gt;
+    &lt;xsl:copy&gt;
+      &lt;xsl:apply-templates select="@*|node()"/&gt;
+    &lt;/xsl:copy&gt;
+  &lt;/xsl:template&gt;
+  &lt;xsl:template match="circle[@fill = 'red']"&gt;
+    &lt;rect width="{@r * 2}" height="{@r * 2}" fill='blue'/&gt;
+  &lt;/xsl:template&gt;
+  &lt;xsl:template match="rect[@fill = 'blue']"&gt;
+    &lt;circle r="{@width div 2}" fill='red'/&gt;
+  &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;
+{{/code}}
+
+What is the effect of this template? Describe how could this stylesheet be modified so that the attributes in the input document will also appear in the output.
+{{/info}}</content></xwikidoc>

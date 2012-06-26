@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xwikidoc>
+<web>Test</web>
+<name>X-Selectors</name>
+<language></language>
+<defaultLanguage></defaultLanguage>
+<translation>0</translation>
+<parent>Test.WebHome</parent>
+<creator>xwiki:XWiki.Admin</creator>
+<author>xwiki:XWiki.Admin</author>
+<customClass></customClass>
+<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+<creationDate>1339604409000</creationDate>
+<date>1339604858000</date>
+<contentUpdateDate>1339604858000</contentUpdateDate>
+<version>1.1</version>
+<title>XML test: XPath Selectors</title>
+<template></template>
+<defaultTemplate></defaultTemplate>
+<validationScript></validationScript>
+<comment></comment>
+<minorEdit>false</minorEdit>
+<syntaxId>xwiki/2.0</syntaxId>
+<hidden>false</hidden>
+<content>{{info}}**Question:** Given the following XML document:
+
+{{code}}
+&lt;?xml version="1.0" ?&gt;
+&lt;object&gt;
+  &lt;class&gt;
+    &lt;name&gt;XWiki.XWikiRights&lt;/name&gt;
+    &lt;defaultWeb&gt;Main&lt;/defaultWeb&gt;
+    &lt;nameField/&gt;
+    &lt;allow&gt;
+      &lt;name&gt;allow&lt;/name&gt;
+      &lt;prettyName&gt;Allow/Deny&lt;/prettyName&gt;
+      &lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+      &lt;number&gt;1&lt;/number&gt;
+    &lt;/allow&gt;
+    &lt;groups&gt;
+      &lt;name&gt;groups&lt;/name&gt;
+      &lt;prettyName&gt;Groups&lt;/prettyName&gt;
+      &lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+      &lt;number&gt;3&lt;/number&gt;
+    &lt;/groups&gt;
+    &lt;levels&gt;
+      &lt;name&gt;levels&lt;/name&gt;
+      &lt;prettyName&gt;Levels&lt;/prettyName&gt;
+      &lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+      &lt;number&gt;4&lt;/number&gt;
+    &lt;/levels&gt;
+    &lt;users&gt;
+      &lt;name&gt;users&lt;/name&gt;
+      &lt;prettyName&gt;Users&lt;/prettyName&gt;
+      &lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+      &lt;size&gt;5&lt;/size&gt;
+      &lt;number&gt;6&lt;/number&gt;
+    &lt;/users&gt;
+    &lt;groups&gt;
+      &lt;name&gt;groups&lt;/name&gt;
+      &lt;prettyName&gt;Groups&lt;/prettyName&gt;
+      &lt;unmodifiable&gt;0&lt;/unmodifiable&gt;
+      &lt;size&gt;5&lt;/size&gt;
+      &lt;number&gt;7&lt;/number&gt;
+    &lt;/groups&gt;
+  &lt;/class&gt;
+&lt;/object&gt;
+{{/code}}
+
+Write the XPath selectors that return the following nodes:
+* The second child of the element after ##nameField##
+* All the elements that have the ##size## attribute
+* The sum of all the values inside the ##number## elements
+{{/info}}</content></xwikidoc>
