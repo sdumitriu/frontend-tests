@@ -198,7 +198,21 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
 
 .actions li {
 }
-</code>
+
+.actions .rewind {
+}
+
+.actions .play {
+}
+
+.actions .stop {
+}
+
+.actions .forward {
+}
+
+.actions .record {
+}</code>
     </property>
     <property>
       <name/>
