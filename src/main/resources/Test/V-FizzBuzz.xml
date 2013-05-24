@@ -24,7 +24,7 @@
   <hidden>false</hidden>
   <object>
     <class>
-      <name>Blog.BlogClass</name>
+      <name>Test.Textarea</name>
       <customClass/>
       <customMapping/>
       <defaultViewSheet/>
@@ -32,110 +32,29 @@
       <defaultWeb/>
       <nameField/>
       <validationScript/>
-      <blogType>
-        <cache>0</cache>
+      <code>
         <customDisplay/>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>blogType</name>
-        <number>5</number>
+        <disabled>0</disabled>
+        <editor>Text</editor>
+        <name>code</name>
+        <number>1</number>
         <picker>0</picker>
-        <prettyName>The Blog type</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators> ,|</separators>
-        <size>1</size>
-        <sort>none</sort>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </blogType>
-      <description>
-        <contenttype>FullyRenderedText</contenttype>
-        <customDisplay/>
-        <editor>---</editor>
-        <name>description</name>
-        <number>2</number>
-        <picker>0</picker>
-        <prettyName>Description</prettyName>
-        <rows>5</rows>
-        <size>60</size>
-        <tooltip/>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>40</size>
         <unmodifiable>0</unmodifiable>
         <validationMessage/>
         <validationRegExp/>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </description>
-      <displayType>
-        <cache>0</cache>
-        <customDisplay/>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>displayType</name>
-        <number>3</number>
-        <picker>0</picker>
-        <prettyName>Index display</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators> ,|</separators>
-        <size>1</size>
-        <sort>none</sort>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </displayType>
-      <itemsPerPage>
-        <customDisplay/>
-        <name>itemsPerPage</name>
-        <number>4</number>
-        <numberType>integer</numberType>
-        <prettyName>Items per page (only in the Paginated display mode)</prettyName>
-        <size>2</size>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
-      </itemsPerPage>
-      <title>
-        <customDisplay/>
-        <name>title</name>
-        <number>1</number>
-        <picker>0</picker>
-        <prettyName>Blog title</prettyName>
-        <size>30</size>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </title>
+      </code>
     </class>
     <name>Test.V-FizzBuzz</name>
     <number>0</number>
-    <className>Blog.BlogClass</className>
-    <guid>d623e39c-bf08-4cd7-9f9d-28d9e6fad804</guid>
+    <className>Test.Textarea</className>
+    <guid>5f88b5b4-fd8d-4feb-bf8b-a6cbea21fb85</guid>
     <property>
-      <blogType/>
-    </property>
-    <property>
-      <description>## Write code here
-</description>
-    </property>
-    <property>
-      <displayType/>
-    </property>
-    <property>
-      <itemsPerPage/>
-    </property>
-    <property>
-      <title/>
+      <code>## Write code here
+</code>
     </property>
   </object>
   <object>
@@ -225,10 +144,10 @@ For example:
 1  2  Fizz  4  Buzz  Fizz  7  8  Fizz  Buzz  11  Fizz  13  14  FizzBuzz  16
 {{/code}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;number=0&amp;property=description&amp;x-maximized=TEXTAREA[id=''Blog.BlogClass_0_description'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
 
 
 {{velocity}}
-#evaluate($doc.getObject('Blog.BlogClass').getProperty('description').value)
+#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
 {{/velocity}}</content>
 </xwikidoc>

@@ -75,7 +75,7 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
   </attachment>
   <object>
     <class>
-      <name>Blog.BlogClass</name>
+      <name>Test.Textarea</name>
       <customClass/>
       <customMapping/>
       <defaultViewSheet/>
@@ -83,120 +83,34 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
       <defaultWeb/>
       <nameField/>
       <validationScript/>
-      <blogType>
-        <cache>0</cache>
+      <code>
         <customDisplay/>
         <disabled>0</disabled>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>blogType</name>
-        <number>5</number>
+        <editor>Text</editor>
+        <name>code</name>
+        <number>1</number>
         <picker>0</picker>
-        <prettyName>Blog type</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators> ,|</separators>
-        <size>1</size>
-        <sort>none</sort>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </blogType>
-      <description>
-        <contenttype>FullyRenderedText</contenttype>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <editor>---</editor>
-        <name>description</name>
-        <number>2</number>
-        <picker>0</picker>
-        <prettyName>Description</prettyName>
-        <rows>5</rows>
-        <size>60</size>
-        <tooltip/>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>40</size>
         <unmodifiable>0</unmodifiable>
         <validationMessage/>
         <validationRegExp/>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </description>
-      <displayType>
-        <cache>0</cache>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>displayType</name>
-        <number>3</number>
-        <picker>0</picker>
-        <prettyName>Index display</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators> ,|</separators>
-        <size>1</size>
-        <sort>none</sort>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </displayType>
-      <itemsPerPage>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>itemsPerPage</name>
-        <number>4</number>
-        <numberType>integer</numberType>
-        <prettyName>Items per page (only in the Paginated display mode)</prettyName>
-        <size>2</size>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
-      </itemsPerPage>
-      <title>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>title</name>
-        <number>1</number>
-        <picker>0</picker>
-        <prettyName>Blog title</prettyName>
-        <size>30</size>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </title>
+      </code>
     </class>
     <name>Test.C-Play</name>
     <number>0</number>
-    <className>Blog.BlogClass</className>
-    <guid>3b11800f-cad1-42bb-b005-689430c68f09</guid>
+    <className>Test.Textarea</className>
+    <guid>34c00bb8-3cda-4b52-89b4-7998b9a42b60</guid>
     <property>
-      <blogType/>
-    </property>
-    <property>
-      <description>&lt;ul class="actions"&gt;
+      <code>&lt;ul class="actions"&gt;
   &lt;li class="rewind"&gt;&lt;a href="#rewind"&gt;Rewind&lt;/a&gt;&lt;/li&gt;
   &lt;li class="play"&gt;&lt;a href="#play"&gt;Play&lt;/a&gt;&lt;/li&gt;
   &lt;li class="stop"&gt;&lt;a href="#stop"&gt;Stop&lt;/a&gt;&lt;/li&gt;
   &lt;li class="forward"&gt;&lt;a href="#forward"&gt;Forward&lt;/a&gt;&lt;/li&gt;
   &lt;li class="record"&gt;&lt;a href="#record"&gt;Start recording&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </property>
-    <property>
-      <displayType/>
-    </property>
-    <property>
-      <itemsPerPage/>
-    </property>
-    <property>
-      <title/>
+&lt;/ul&gt;</code>
     </property>
   </object>
   <object>
@@ -550,10 +464,10 @@ image:play.png
 {{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', "editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=$escapetool.url('TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')")"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
 
 {{velocity}}{{code}}
-$doc.getObject('Blog.BlogClass').getProperty('description').value
+$doc.getObject('Test.Textarea').getProperty('code').value
 {{/code}}
 
 {{html}}
-$doc.getObject('Blog.BlogClass').getProperty('description').value
+$doc.getObject('Test.Textarea').getProperty('code').value
 {{/html}}{{/velocity}}</content>
 </xwikidoc>

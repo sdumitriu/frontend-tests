@@ -24,7 +24,7 @@
   <hidden>false</hidden>
   <object>
     <class>
-      <name>Blog.BlogClass</name>
+      <name>Test.Textarea</name>
       <customClass/>
       <customMapping/>
       <defaultViewSheet/>
@@ -32,100 +32,28 @@
       <defaultWeb/>
       <nameField/>
       <validationScript/>
-      <blogType>
-        <cache>0</cache>
+      <code>
         <customDisplay/>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>blogType</name>
-        <number>5</number>
+        <disabled>0</disabled>
+        <editor>Text</editor>
+        <name>code</name>
+        <number>1</number>
         <picker>0</picker>
-        <prettyName>The Blog type</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators> ,|</separators>
-        <size>1</size>
-        <sort>none</sort>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </blogType>
-      <description>
-        <contenttype>FullyRenderedText</contenttype>
-        <customDisplay/>
-        <editor>---</editor>
-        <name>description</name>
-        <number>2</number>
-        <picker>0</picker>
-        <prettyName>Description</prettyName>
-        <rows>5</rows>
-        <size>60</size>
-        <tooltip/>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>40</size>
         <unmodifiable>0</unmodifiable>
         <validationMessage/>
         <validationRegExp/>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </description>
-      <displayType>
-        <cache>0</cache>
-        <customDisplay/>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>displayType</name>
-        <number>3</number>
-        <picker>0</picker>
-        <prettyName>Index display</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators> ,|</separators>
-        <size>1</size>
-        <sort>none</sort>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </displayType>
-      <itemsPerPage>
-        <customDisplay/>
-        <name>itemsPerPage</name>
-        <number>4</number>
-        <numberType>integer</numberType>
-        <prettyName>Items per page (only in the Paginated display mode)</prettyName>
-        <size>2</size>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
-      </itemsPerPage>
-      <title>
-        <customDisplay/>
-        <name>title</name>
-        <number>1</number>
-        <picker>0</picker>
-        <prettyName>Blog title</prettyName>
-        <size>30</size>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </title>
+      </code>
     </class>
     <name>Test.V-DocTree</name>
     <number>0</number>
-    <className>Blog.BlogClass</className>
-    <guid>78dae546-fab3-4516-8453-7bb5940423f8</guid>
+    <className>Test.Textarea</className>
+    <guid>f1737fa6-5a94-4084-a2db-1c0ae6978bec</guid>
     <property>
-      <blogType/>
-    </property>
-    <property>
-      <description>#macro(displayDocumentHierarchy)
+      <code>#macro(displayDocumentHierarchy)
   ## This is how you get an ArrayList with all the documents in the wiki:
   #set($allDocuments = $xwiki.searchDocuments('where 1=1'))
   ## Just in case you might need some datatypes:
@@ -136,16 +64,7 @@
 
 {{html}}
 #displayDocumentHierarchy()
-{{/html}}</description>
-    </property>
-    <property>
-      <displayType/>
-    </property>
-    <property>
-      <itemsPerPage/>
-    </property>
-    <property>
-      <title/>
+{{/html}}</code>
     </property>
   </object>
   <object>
@@ -242,7 +161,7 @@ Write a velocity macro that displays all the documents in the wiki as a tree, wh
 * they are top-level nodes in the tree if they are the space's "//WebHome//" (their name is "//&lt;Space&gt;.WebHome//") or if the "//WebHome//" is missing
 {{/info}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;number=0&amp;property=description&amp;x-maximized=TEXTAREA[id=''Blog.BlogClass_0_description'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
 
 
 Resources:
@@ -272,6 +191,6 @@ Sample output (please display for each item its ##fullName## and ##parent## for 
 {{/code}}
 
 {{velocity}}
-#evaluate($doc.getObject('Blog.BlogClass').getProperty('description').value)
+#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
 {{/velocity}}</content>
 </xwikidoc>

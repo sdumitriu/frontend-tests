@@ -24,7 +24,7 @@
   <hidden>false</hidden>
   <object>
     <class>
-      <name>Blog.BlogClass</name>
+      <name>Test.Textarea</name>
       <customClass/>
       <customMapping/>
       <defaultViewSheet/>
@@ -32,130 +32,32 @@
       <defaultWeb/>
       <nameField/>
       <validationScript/>
-      <blogType>
-        <cache>0</cache>
+      <code>
         <customDisplay/>
         <disabled>0</disabled>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>blogType</name>
-        <number>5</number>
-        <picker>0</picker>
-        <prettyName>Blog type</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators> ,|</separators>
-        <size>1</size>
-        <sort>none</sort>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </blogType>
-      <description>
-        <contenttype>FullyRenderedText</contenttype>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <editor>---</editor>
-        <name>description</name>
-        <number>2</number>
-        <picker>0</picker>
-        <prettyName>Description</prettyName>
-        <rows>5</rows>
-        <size>60</size>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage>Not right.</validationMessage>
-        <validationRegExp>/abc/</validationRegExp>
-        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-      </description>
-      <displayType>
-        <cache>0</cache>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <displayType>select</displayType>
-        <multiSelect>0</multiSelect>
-        <name>displayType</name>
-        <number>3</number>
-        <picker>0</picker>
-        <prettyName>Index display</prettyName>
-        <relationalStorage>0</relationalStorage>
-        <separator> </separator>
-        <separators> ,|</separators>
-        <size>1</size>
-        <sort>none</sort>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
-        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-      </displayType>
-      <itemsPerPage>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>itemsPerPage</name>
-        <number>4</number>
-        <numberType>integer</numberType>
-        <prettyName>Items per page (only in the Paginated display mode)</prettyName>
-        <size>2</size>
-        <tooltip/>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage/>
-        <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
-      </itemsPerPage>
-      <name>
-        <disabled>0</disabled>
-        <name>name</name>
-        <number>6</number>
-        <numberType>long</numberType>
-        <prettyName>name</prettyName>
-        <size>30</size>
-        <unmodifiable>0</unmodifiable>
-        <validationMessage>Not right 2.</validationMessage>
-        <validationRegExp>/abc/</validationRegExp>
-        <classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
-      </name>
-      <title>
-        <customDisplay/>
-        <disabled>0</disabled>
-        <name>title</name>
+        <editor>Text</editor>
+        <name>code</name>
         <number>1</number>
         <picker>0</picker>
-        <prettyName>Blog title</prettyName>
-        <size>30</size>
-        <tooltip/>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>40</size>
         <unmodifiable>0</unmodifiable>
         <validationMessage/>
         <validationRegExp/>
-        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-      </title>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
     </class>
     <name>Test.V-GCD</name>
     <number>0</number>
-    <className>Blog.BlogClass</className>
-    <guid>59413a54-700e-430b-987c-4faa43ad1733</guid>
+    <className>Test.Textarea</className>
+    <guid>5bb042ac-591a-42ab-be22-47da1311dea6</guid>
     <property>
-      <blogType/>
-    </property>
-    <property>
-      <description>#set($a = $mathtool.toInteger($request.a))
+      <code>#set($a = $mathtool.toInteger($request.a))
 #set($b = $mathtool.toInteger($request.b))
 ## Write code here:
 
-</description>
-    </property>
-    <property>
-      <displayType/>
-    </property>
-    <property>
-      <itemsPerPage/>
-    </property>
-    <property>
-      <title/>
+</code>
     </property>
   </object>
   <object>
@@ -254,9 +156,9 @@ a=42, b=35 =&gt; 7
 a=-42, b=35 =&gt; No negative number allowed
 {{/code}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;number=0&amp;property=description&amp;x-maximized=TEXTAREA[id=''Blog.BlogClass_0_description'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
 
 {{velocity}}
-#evaluate($doc.getObject('Blog.BlogClass').getProperty('description').value)
+#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
 {{/velocity}}</content>
 </xwikidoc>
