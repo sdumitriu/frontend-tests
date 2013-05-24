@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-<web>Test</web>
-<name>WebHome</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Main.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1266717254000</creationDate>
-<date>1266717254000</date>
-<contentUpdateDate>1266717254000</contentUpdateDate>
-<version>1.1</version>
-<title>Technical frontend developer tests</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<content>== CSS tests ==
+  <web>Test</web>
+  <name>WebHome</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Main.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1266717254000</creationDate>
+  <date>1266717254000</date>
+  <contentUpdateDate>1266717254000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Technical frontend developer tests</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>== CSS tests ==
 
 * [[C-Panel]]
 * [[C-Square]]
@@ -103,4 +103,5 @@
 
 == Design tests ==
 * [[D-Summer]]
-* [[D-BogoSAT]]</content></xwikidoc>
+* [[D-BogoSAT]]</content>
+</xwikidoc>

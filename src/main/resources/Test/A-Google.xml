@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Test</web>
-<name>A-Google</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1319179477000</creationDate>
-<date>1319179547000</date>
-<contentUpdateDate>1319179547000</contentUpdateDate>
-<version>1.1</version>
-<title>Architecture test: Google</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<content>{{info}}**Task:** Imagine or execute the following scenario:
+  <web>Test</web>
+  <name>A-Google</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1319179477000</creationDate>
+  <date>1319179547000</date>
+  <contentUpdateDate>1319179547000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Architecture test: Google</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}**Task:** Imagine or execute the following scenario:
 * Navigate to www.google.com
 * Login with your google account
 * Do a random search
@@ -30,4 +31,5 @@
 Provide a detailed presentation of what happens on the client, on the servers and during transport.
 * structure ideas: 5 minutes
 * tech discussion: up to 20 minutes
-{{/info}}</content></xwikidoc>
+{{/info}}</content>
+</xwikidoc>

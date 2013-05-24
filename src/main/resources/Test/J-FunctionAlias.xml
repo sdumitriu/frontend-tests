@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Test</web>
-<name>J-FunctionAlias</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1281570937000</creationDate>
-<date>1281571036000</date>
-<contentUpdateDate>1281571036000</contentUpdateDate>
-<version>1.1</version>
-<title>JS Test: Function Alias</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<content>{{info}}**Task:** What does the following code return? Why?{{/info}}
+  <web>Test</web>
+  <name>J-FunctionAlias</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1281570937000</creationDate>
+  <date>1281571036000</date>
+  <contentUpdateDate>1281571036000</contentUpdateDate>
+  <version>1.1</version>
+  <title>JS Test: Function Alias</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}**Task:** What does the following code return? Why?{{/info}}
 
 {{code language="javascript"}}
 var f = function g() { return 23; };
 typeof g();
-{{/code}}</content></xwikidoc>
+{{/code}}</content>
+</xwikidoc>

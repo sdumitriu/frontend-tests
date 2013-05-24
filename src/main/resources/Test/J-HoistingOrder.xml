@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Test</web>
-<name>J-HoistingOrder</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1281573047000</creationDate>
-<date>1281573223000</date>
-<contentUpdateDate>1281573223000</contentUpdateDate>
-<version>1.1</version>
-<title>JS Test: Hoisting Order</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<content>{{info}}**Task:** What do the following code snippets return? Why?{{/info}}
+  <web>Test</web>
+  <name>J-HoistingOrder</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1281573047000</creationDate>
+  <date>1281573223000</date>
+  <contentUpdateDate>1281573223000</contentUpdateDate>
+  <version>1.1</version>
+  <title>JS Test: Hoisting Order</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}**Task:** What do the following code snippets return? Why?{{/info}}
 
 {{code language="javascript"}}
 function a(x) {
@@ -66,4 +67,5 @@ a;
   var a;
   return a;
 })();
-{{/code}}</content></xwikidoc>
+{{/code}}</content>
+</xwikidoc>

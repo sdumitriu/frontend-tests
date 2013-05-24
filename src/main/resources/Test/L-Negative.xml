@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Test</web>
-<name>L-Negative</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1326680292000</creationDate>
-<date>1326680570000</date>
-<contentUpdateDate>1326680570000</contentUpdateDate>
-<version>1.1</version>
-<title>Logic test: Negation</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.1</syntaxId>
-<hidden>false</hidden>
-<content>{{info}}What is the negation of the following sentence:
+  <web>Test</web>
+  <name>L-Negative</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1326680292000</creationDate>
+  <date>1326680570000</date>
+  <contentUpdateDate>1326680570000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Logic test: Negation</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}What is the negation of the following sentence:
 &gt;//If I don't know the answer to a question, I Google it.//{{/info}}
-</content></xwikidoc>
+</content>
+</xwikidoc>

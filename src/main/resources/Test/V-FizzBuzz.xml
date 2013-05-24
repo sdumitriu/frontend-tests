@@ -1,224 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-<web>Test</web>
-<name>V-FizzBuzz</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1266717254000</creationDate>
-<date>1266717254000</date>
-<contentUpdateDate>1266717254000</contentUpdateDate>
-<version>1.1</version>
-<title>Velocity Test: FizzBuzz</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<object>
-<class>
-<name>Blog.BlogClass</name>
-<customClass></customClass>
-<customMapping></customMapping>
-<defaultViewSheet></defaultViewSheet>
-<defaultEditSheet></defaultEditSheet>
-<defaultWeb></defaultWeb>
-<nameField></nameField>
-<validationScript></validationScript>
-<blogType>
-<cache>0</cache>
-<customDisplay></customDisplay>
-<displayType>select</displayType>
-<multiSelect>0</multiSelect>
-<name>blogType</name>
-<number>5</number>
-<picker>0</picker>
-<prettyName>The Blog type</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<separators> ,|</separators>
-<size>1</size>
-<sort>none</sort>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
-<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-</blogType>
-<description>
-<contenttype>FullyRenderedText</contenttype>
-<customDisplay></customDisplay>
-<editor>---</editor>
-<name>description</name>
-<number>2</number>
-<picker>0</picker>
-<prettyName>Description</prettyName>
-<rows>5</rows>
-<size>60</size>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+  <web>Test</web>
+  <name>V-FizzBuzz</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1266717254000</creationDate>
+  <date>1266717254000</date>
+  <contentUpdateDate>1266717254000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Velocity Test: FizzBuzz</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <object>
+    <class>
+      <name>Blog.BlogClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <blogType>
+        <cache>0</cache>
+        <customDisplay/>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>blogType</name>
+        <number>5</number>
+        <picker>0</picker>
+        <prettyName>The Blog type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <sort>none</sort>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </blogType>
+      <description>
+        <contenttype>FullyRenderedText</contenttype>
+        <customDisplay/>
+        <editor>---</editor>
+        <name>description</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Description</prettyName>
+        <rows>5</rows>
+        <size>60</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <displayType>
+        <cache>0</cache>
+        <customDisplay/>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>displayType</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Index display</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <sort>none</sort>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </displayType>
+      <itemsPerPage>
+        <customDisplay/>
+        <name>itemsPerPage</name>
+        <number>4</number>
+        <numberType>integer</numberType>
+        <prettyName>Items per page (only in the Paginated display mode)</prettyName>
+        <size>2</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
+      </itemsPerPage>
+      <title>
+        <customDisplay/>
+        <name>title</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Blog title</prettyName>
+        <size>30</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </title>
+    </class>
+    <name>Test.V-FizzBuzz</name>
+    <number>0</number>
+    <className>Blog.BlogClass</className>
+    <guid>d623e39c-bf08-4cd7-9f9d-28d9e6fad804</guid>
+    <property>
+      <blogType/>
+    </property>
+    <property>
+      <description>## Write code here
 </description>
-<displayType>
-<cache>0</cache>
-<customDisplay></customDisplay>
-<displayType>select</displayType>
-<multiSelect>0</multiSelect>
-<name>displayType</name>
-<number>3</number>
-<picker>0</picker>
-<prettyName>Index display</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<separators> ,|</separators>
-<size>1</size>
-<sort>none</sort>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
-<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-</displayType>
-<itemsPerPage>
-<customDisplay></customDisplay>
-<name>itemsPerPage</name>
-<number>4</number>
-<numberType>integer</numberType>
-<prettyName>Items per page (only in the Paginated display mode)</prettyName>
-<size>2</size>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
-</itemsPerPage>
-<title>
-<customDisplay></customDisplay>
-<name>title</name>
-<number>1</number>
-<picker>0</picker>
-<prettyName>Blog title</prettyName>
-<size>30</size>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</title>
-</class>
-<name>Test.V-FizzBuzz</name>
-<number>0</number>
-<className>Blog.BlogClass</className>
-<guid>d623e39c-bf08-4cd7-9f9d-28d9e6fad804</guid>
-<property>
-<blogType></blogType>
-</property>
-<property>
-<description>## Write code here
-</description>
-</property>
-<property>
-<displayType></displayType>
-</property>
-<property>
-<itemsPerPage></itemsPerPage>
-</property>
-<property>
-<title></title>
-</property>
-</object>
-<object>
-<class>
-<name>XWiki.XWikiRights</name>
-<customClass></customClass>
-<customMapping></customMapping>
-<defaultViewSheet></defaultViewSheet>
-<defaultEditSheet></defaultEditSheet>
-<defaultWeb></defaultWeb>
-<nameField></nameField>
-<validationScript></validationScript>
-<allow>
-<defaultValue>1</defaultValue>
-<displayFormType>select</displayFormType>
-<displayType>allow</displayType>
-<name>allow</name>
-<number>4</number>
-<prettyName>Allow/Deny</prettyName>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-</allow>
-<groups>
-<cache>0</cache>
-<displayType>select</displayType>
-<multiSelect>1</multiSelect>
-<name>groups</name>
-<number>1</number>
-<prettyName>Groups</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<size>5</size>
-<unmodifiable>0</unmodifiable>
-<usesList>1</usesList>
-<classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
-</groups>
-<levels>
-<cache>0</cache>
-<displayType>select</displayType>
-<multiSelect>1</multiSelect>
-<name>levels</name>
-<number>2</number>
-<prettyName>Levels</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<size>3</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
-</levels>
-<users>
-<cache>0</cache>
-<displayType>select</displayType>
-<multiSelect>1</multiSelect>
-<name>users</name>
-<number>3</number>
-<prettyName>Users</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<size>5</size>
-<unmodifiable>0</unmodifiable>
-<usesList>1</usesList>
-<classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
-</users>
-</class>
-<name>Test.V-FizzBuzz</name>
-<number>0</number>
-<className>XWiki.XWikiRights</className>
-<guid>6bd7bebb-fb0e-402d-babf-a5149e3f3d9b</guid>
-<property>
-<allow>1</allow>
-</property>
-<property>
-<groups></groups>
-</property>
-<property>
-<levels>view,edit</levels>
-</property>
-<property>
-<users>XWiki.XWikiGuest</users>
-</property>
-</object>
-<content>{{info}}**Task:** Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".{{/info}}
+    </property>
+    <property>
+      <displayType/>
+    </property>
+    <property>
+      <itemsPerPage/>
+    </property>
+    <property>
+      <title/>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.XWikiRights</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <allow>
+        <defaultValue>1</defaultValue>
+        <displayFormType>select</displayFormType>
+        <displayType>allow</displayType>
+        <name>allow</name>
+        <number>4</number>
+        <prettyName>Allow/Deny</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </allow>
+      <groups>
+        <cache>0</cache>
+        <displayType>select</displayType>
+        <multiSelect>1</multiSelect>
+        <name>groups</name>
+        <number>1</number>
+        <prettyName>Groups</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <size>5</size>
+        <unmodifiable>0</unmodifiable>
+        <usesList>1</usesList>
+        <classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
+      </groups>
+      <levels>
+        <cache>0</cache>
+        <displayType>select</displayType>
+        <multiSelect>1</multiSelect>
+        <name>levels</name>
+        <number>2</number>
+        <prettyName>Levels</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <size>3</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
+      </levels>
+      <users>
+        <cache>0</cache>
+        <displayType>select</displayType>
+        <multiSelect>1</multiSelect>
+        <name>users</name>
+        <number>3</number>
+        <prettyName>Users</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <size>5</size>
+        <unmodifiable>0</unmodifiable>
+        <usesList>1</usesList>
+        <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
+      </users>
+    </class>
+    <name>Test.V-FizzBuzz</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>6bd7bebb-fb0e-402d-babf-a5149e3f3d9b</guid>
+    <property>
+      <allow>1</allow>
+    </property>
+    <property>
+      <groups/>
+    </property>
+    <property>
+      <levels>view,edit</levels>
+    </property>
+    <property>
+      <users>XWiki.XWikiGuest</users>
+    </property>
+  </object>
+  <content>{{info}}**Task:** Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".{{/info}}
 
 For example:
 

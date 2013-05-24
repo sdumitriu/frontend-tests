@@ -1,232 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-<web>Test</web>
-<name>C-Star</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1266717254000</creationDate>
-<date>1266717254000</date>
-<contentUpdateDate>1266717254000</contentUpdateDate>
-<version>1.1</version>
-<title>CSS Test: Star</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<attachment>
-<filename>star.png</filename>
-<filesize>6535</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1266717254000</date>
-<version>1.1</version>
-<comment></comment>
-<content>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</content>
-</attachment>
-<object>
-<class>
-<name>Blog.BlogClass</name>
-<customClass></customClass>
-<customMapping></customMapping>
-<defaultViewSheet></defaultViewSheet>
-<defaultEditSheet></defaultEditSheet>
-<defaultWeb></defaultWeb>
-<nameField></nameField>
-<validationScript></validationScript>
-<blogType>
-<cache>0</cache>
-<customDisplay></customDisplay>
-<displayType>select</displayType>
-<multiSelect>0</multiSelect>
-<name>blogType</name>
-<number>5</number>
-<picker>0</picker>
-<prettyName>The Blog type</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<separators> ,|</separators>
-<size>1</size>
-<sort>none</sort>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
-<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-</blogType>
-<description>
-<contenttype>FullyRenderedText</contenttype>
-<customDisplay></customDisplay>
-<editor>---</editor>
-<name>description</name>
-<number>2</number>
-<picker>0</picker>
-<prettyName>Description</prettyName>
-<rows>5</rows>
-<size>60</size>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</description>
-<displayType>
-<cache>0</cache>
-<customDisplay></customDisplay>
-<displayType>select</displayType>
-<multiSelect>0</multiSelect>
-<name>displayType</name>
-<number>3</number>
-<picker>0</picker>
-<prettyName>Index display</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<separators> ,|</separators>
-<size>1</size>
-<sort>none</sort>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
-<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-</displayType>
-<itemsPerPage>
-<customDisplay></customDisplay>
-<name>itemsPerPage</name>
-<number>4</number>
-<numberType>integer</numberType>
-<prettyName>Items per page (only in the Paginated display mode)</prettyName>
-<size>2</size>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
-</itemsPerPage>
-<title>
-<customDisplay></customDisplay>
-<name>title</name>
-<number>1</number>
-<picker>0</picker>
-<prettyName>Blog title</prettyName>
-<size>30</size>
-<tooltip></tooltip>
-<unmodifiable>0</unmodifiable>
-<validationMessage></validationMessage>
-<validationRegExp></validationRegExp>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</title>
-</class>
-<name>Test.C-Star</name>
-<number>0</number>
-<className>Blog.BlogClass</className>
-<guid>3e3e26d5-acc0-4c05-8b28-641e17f9bbfa</guid>
-<property>
-<blogType></blogType>
-</property>
-<property>
-<description>&lt;div id="star"&gt;
+  <web>Test</web>
+  <name>C-Star</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1266717254000</creationDate>
+  <date>1266717254000</date>
+  <contentUpdateDate>1266717254000</contentUpdateDate>
+  <version>1.1</version>
+  <title>CSS Test: Star</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <attachment>
+    <filename>star.png</filename>
+    <filesize>6535</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1266717254000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>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</content>
+  </attachment>
+  <object>
+    <class>
+      <name>Blog.BlogClass</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <blogType>
+        <cache>0</cache>
+        <customDisplay/>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>blogType</name>
+        <number>5</number>
+        <picker>0</picker>
+        <prettyName>The Blog type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <sort>none</sort>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <values>local=Space blog (aggregates posts from its space only)|global=Global blog (aggregates posts from the entire wiki)</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </blogType>
+      <description>
+        <contenttype>FullyRenderedText</contenttype>
+        <customDisplay/>
+        <editor>---</editor>
+        <name>description</name>
+        <number>2</number>
+        <picker>0</picker>
+        <prettyName>Description</prettyName>
+        <rows>5</rows>
+        <size>60</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </description>
+      <displayType>
+        <cache>0</cache>
+        <customDisplay/>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>displayType</name>
+        <number>3</number>
+        <picker>0</picker>
+        <prettyName>Index display</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <sort>none</sort>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <values>paginated=Paginated|weekly=Group posts weekly|monthly=Group posts monthly|all=Show all posts</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </displayType>
+      <itemsPerPage>
+        <customDisplay/>
+        <name>itemsPerPage</name>
+        <number>4</number>
+        <numberType>integer</numberType>
+        <prettyName>Items per page (only in the Paginated display mode)</prettyName>
+        <size>2</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.NumberClass</classType>
+      </itemsPerPage>
+      <title>
+        <customDisplay/>
+        <name>title</name>
+        <number>1</number>
+        <picker>0</picker>
+        <prettyName>Blog title</prettyName>
+        <size>30</size>
+        <tooltip/>
+        <unmodifiable>0</unmodifiable>
+        <validationMessage/>
+        <validationRegExp/>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </title>
+    </class>
+    <name>Test.C-Star</name>
+    <number>0</number>
+    <className>Blog.BlogClass</className>
+    <guid>3e3e26d5-acc0-4c05-8b28-641e17f9bbfa</guid>
+    <property>
+      <blogType/>
+    </property>
+    <property>
+      <description>&lt;div id="star"&gt;
 &lt;div id="a"&gt; &lt;/div&gt;
 &lt;div id="b"&gt; &lt;/div&gt;
 &lt;div id="c"&gt; &lt;/div&gt;
 &lt;/div&gt;</description>
-</property>
-<property>
-<displayType></displayType>
-</property>
-<property>
-<itemsPerPage></itemsPerPage>
-</property>
-<property>
-<title></title>
-</property>
-</object>
-<object>
-<class>
-<name>XWiki.StyleSheetExtension</name>
-<customClass></customClass>
-<customMapping></customMapping>
-<defaultViewSheet></defaultViewSheet>
-<defaultEditSheet></defaultEditSheet>
-<defaultWeb></defaultWeb>
-<nameField></nameField>
-<validationScript></validationScript>
-<cache>
-<cache>0</cache>
-<displayType>select</displayType>
-<multiSelect>0</multiSelect>
-<name>cache</name>
-<number>5</number>
-<prettyName>Caching policy</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<separators> ,|</separators>
-<size>1</size>
-<unmodifiable>0</unmodifiable>
-<values>long|short|default|forbid</values>
-<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-</cache>
-<code>
-<name>code</name>
-<number>2</number>
-<prettyName>Code</prettyName>
-<rows>20</rows>
-<size>50</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</code>
-<name>
-<name>name</name>
-<number>1</number>
-<prettyName>Name</prettyName>
-<size>30</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</name>
-<parse>
-<displayFormType>select</displayFormType>
-<displayType>yesno</displayType>
-<name>parse</name>
-<number>4</number>
-<prettyName>Parse content</prettyName>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-</parse>
-<use>
-<cache>0</cache>
-<displayType>select</displayType>
-<multiSelect>0</multiSelect>
-<name>use</name>
-<number>3</number>
-<prettyName>Use this extension</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<separators> ,|</separators>
-<size>1</size>
-<unmodifiable>0</unmodifiable>
-<values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
-<classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
-</use>
-</class>
-<name>Test.C-Star</name>
-<number>0</number>
-<className>XWiki.StyleSheetExtension</className>
-<guid>db413310-305e-4e47-b1e4-5f1151aa24aa</guid>
-<property>
-<cache>forbid</cache>
-</property>
-<property>
-<code>#star {
+    </property>
+    <property>
+      <displayType/>
+    </property>
+    <property>
+      <itemsPerPage/>
+    </property>
+    <property>
+      <title/>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.StyleSheetExtension</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <cache>
+        <cache>0</cache>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>cache</name>
+        <number>5</number>
+        <prettyName>Caching policy</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>long|short|default|forbid</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </cache>
+      <code>
+        <name>code</name>
+        <number>2</number>
+        <prettyName>Code</prettyName>
+        <rows>20</rows>
+        <size>50</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </code>
+      <name>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <parse>
+        <displayFormType>select</displayFormType>
+        <displayType>yesno</displayType>
+        <name>parse</name>
+        <number>4</number>
+        <prettyName>Parse content</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </parse>
+      <use>
+        <cache>0</cache>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>use</name>
+        <number>3</number>
+        <prettyName>Use this extension</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators> ,|</separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </use>
+    </class>
+    <name>Test.C-Star</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>db413310-305e-4e47-b1e4-5f1151aa24aa</guid>
+    <property>
+      <cache>forbid</cache>
+    </property>
+    <property>
+      <code>#star {
   position: relative;
   border: 1px solid #000;
   width: 262px;
@@ -242,97 +242,97 @@
 }
 #c {
 }</code>
-</property>
-<property>
-<name></name>
-</property>
-<property>
-<parse>0</parse>
-</property>
-<property>
-<use>currentPage</use>
-</property>
-</object>
-<object>
-<class>
-<name>XWiki.XWikiRights</name>
-<customClass></customClass>
-<customMapping></customMapping>
-<defaultViewSheet></defaultViewSheet>
-<defaultEditSheet></defaultEditSheet>
-<defaultWeb></defaultWeb>
-<nameField></nameField>
-<validationScript></validationScript>
-<allow>
-<defaultValue>1</defaultValue>
-<displayFormType>select</displayFormType>
-<displayType>allow</displayType>
-<name>allow</name>
-<number>4</number>
-<prettyName>Allow/Deny</prettyName>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
-</allow>
-<groups>
-<cache>0</cache>
-<displayType>select</displayType>
-<multiSelect>1</multiSelect>
-<name>groups</name>
-<number>1</number>
-<prettyName>Groups</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<size>5</size>
-<unmodifiable>0</unmodifiable>
-<usesList>1</usesList>
-<classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
-</groups>
-<levels>
-<cache>0</cache>
-<displayType>select</displayType>
-<multiSelect>1</multiSelect>
-<name>levels</name>
-<number>2</number>
-<prettyName>Levels</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<size>3</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
-</levels>
-<users>
-<cache>0</cache>
-<displayType>select</displayType>
-<multiSelect>1</multiSelect>
-<name>users</name>
-<number>3</number>
-<prettyName>Users</prettyName>
-<relationalStorage>0</relationalStorage>
-<separator> </separator>
-<size>5</size>
-<unmodifiable>0</unmodifiable>
-<usesList>1</usesList>
-<classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
-</users>
-</class>
-<name>Test.C-Star</name>
-<number>0</number>
-<className>XWiki.XWikiRights</className>
-<guid>f2478e49-1e83-4db5-a9fb-415ba012f2e4</guid>
-<property>
-<allow>1</allow>
-</property>
-<property>
-<groups></groups>
-</property>
-<property>
-<levels>view,edit</levels>
-</property>
-<property>
-<users>XWiki.XWikiGuest</users>
-</property>
-</object>
-<content>{{info}}**Task:** Write the CSS rules that create the following image. **No changes allowed in the HTML.**{{/info}}
+    </property>
+    <property>
+      <name/>
+    </property>
+    <property>
+      <parse>0</parse>
+    </property>
+    <property>
+      <use>currentPage</use>
+    </property>
+  </object>
+  <object>
+    <class>
+      <name>XWiki.XWikiRights</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <allow>
+        <defaultValue>1</defaultValue>
+        <displayFormType>select</displayFormType>
+        <displayType>allow</displayType>
+        <name>allow</name>
+        <number>4</number>
+        <prettyName>Allow/Deny</prettyName>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.BooleanClass</classType>
+      </allow>
+      <groups>
+        <cache>0</cache>
+        <displayType>select</displayType>
+        <multiSelect>1</multiSelect>
+        <name>groups</name>
+        <number>1</number>
+        <prettyName>Groups</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <size>5</size>
+        <unmodifiable>0</unmodifiable>
+        <usesList>1</usesList>
+        <classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
+      </groups>
+      <levels>
+        <cache>0</cache>
+        <displayType>select</displayType>
+        <multiSelect>1</multiSelect>
+        <name>levels</name>
+        <number>2</number>
+        <prettyName>Levels</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <size>3</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.LevelsClass</classType>
+      </levels>
+      <users>
+        <cache>0</cache>
+        <displayType>select</displayType>
+        <multiSelect>1</multiSelect>
+        <name>users</name>
+        <number>3</number>
+        <prettyName>Users</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <size>5</size>
+        <unmodifiable>0</unmodifiable>
+        <usesList>1</usesList>
+        <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
+      </users>
+    </class>
+    <name>Test.C-Star</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>f2478e49-1e83-4db5-a9fb-415ba012f2e4</guid>
+    <property>
+      <allow>1</allow>
+    </property>
+    <property>
+      <groups/>
+    </property>
+    <property>
+      <levels>view,edit</levels>
+    </property>
+    <property>
+      <users>XWiki.XWikiGuest</users>
+    </property>
+  </object>
+  <content>{{info}}**Task:** Write the CSS rules that create the following image. **No changes allowed in the HTML.**{{/info}}
 
 image:star.png
 

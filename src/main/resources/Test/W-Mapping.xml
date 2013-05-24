@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Test</web>
-<name>W-Mapping</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1319178178000</creationDate>
-<date>1319178248000</date>
-<contentUpdateDate>1319178248000</contentUpdateDate>
-<version>1.1</version>
-<title>Web servers test: Servlet Mapping</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<content>{{info}}**Question:** What configuration file usualy contains the servlet mapping in a java web server?
+  <web>Test</web>
+  <name>W-Mapping</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1319178178000</creationDate>
+  <date>1319178248000</date>
+  <contentUpdateDate>1319178248000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Web servers test: Servlet Mapping</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}**Question:** What configuration file usualy contains the servlet mapping in a java web server?
 
 1. robots.txt
 1. hibernate.cfg.xml
@@ -31,4 +32,5 @@
 1. web.cfg
 1. portlet.properties
 1. portlet.xml{{/info}}
-</content></xwikidoc>
+</content>
+</xwikidoc>

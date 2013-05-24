@@ -1,165 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xwikidoc>
-<web>Test</web>
-<name>TestSkin</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebPreferences</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1266717254000</creationDate>
-<date>1266717254000</date>
-<contentUpdateDate>1266717254000</contentUpdateDate>
-<version>1.1</version>
-<title>Mostly empty skin that prevents actual document deletion</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<attachment>
-<filename>delete.vm</filename>
-<filesize>3307</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1266717254000</date>
-<version>1.1</version>
-<comment></comment>
-<content>IyMjCiMjIyBEZWxldGUgcGFnZSBjb25maXJtIG1lc3NhZ2UKIyMjCiMjIwojdGVtcGxhdGUoInN0YXJ0cGFnZS52bSIpCjxkaXYgY2xhc3M9Im1haW4gbGF5b3V0c3Vic2VjdGlvbiI+CjxkaXYgaWQ9Im1haW5Db250ZW50QXJlYSI+CiNpZigkbWVzc2FnZSkKICA8ZGl2IGlkPSJ4d2lraW1lc3NhZ2UiPiRtZXNzYWdlPC9kaXY+CiNlbmQKI2lmKCIkIXtyZXF1ZXN0LmlkfSIgPT0gJycpCiNzZXQoJGxpbmtzPSRkb2MuZ2V0QmFja2xpbmtzKCkpCiNzZXQoJG9ycGhhbnMgPSAkeHdpa2kuc2VhcmNoRG9jdW1lbnRzKCIgd2hlcmUgZG9jLmZ1bGxOYW1lIDw+ID8gYW5kIChkb2MucGFyZW50ID0gPyBvciAoZG9jLnBhcmVudCA9ID8gYW5kIGRvYy5zcGFjZSA9ID8pKSIsIFsiJHtkb2MuZnVsbE5hbWV9IiwgJHtkb2MuZnVsbE5hbWV9LCAke2RvYy5uYW1lfSwgJHtkb2Muc3BhY2V9XSkpCiNpZigkcmVxdWVzdC54cmVkaXJlY3QpCiAgI3NldCgkcmVkaXJlY3RwYXJhbSA9ICImYW1wO3hyZWRpcmVjdD0kcmVxdWVzdC54cmVkaXJlY3QiKQojZW5kCiNzZXQoJHF1b3RlID0gJyInKQojc2V0KCRoYXNJbmxpbmtzID0gZmFsc2UpCiNzZXQoJGZ1bGxtc2cgPSAiIikKI2lmKCRsaW5rcyAmJiAkbGlua3Muc2l6ZSgpID4gMCkKICAjc2V0KCR0bXBtc2cgPSAiPC9wPjx1bCBzdHlsZT0ke3F1b3RlfXRleHQtYWxpZ246IGxlZnQ7JHtxdW90ZX0+IikKICAjZm9yZWFjaCgkZG9jbmFtZSBpbiAkbGlua3MpCiAgICAjc2V0KCRyZG9jID0gJHh3aWtpLmdldERvY3VtZW50KCRkb2NuYW1lKS5nZXRUcmFuc2xhdGVkRG9jdW1lbnQoKSkKICAgICNzZXQoJHRtcG1zZyA9ICIke3RtcG1zZ308bGk+PGEgaHJlZj0ke3F1b3RlfSR7cmRvYy5nZXRVUkwoJ3ZpZXcnKX0ke3F1b3RlfT4keHdpa2kuZ2V0WE1MRW5jb2RlZCgke3Jkb2MuZGlzcGxheVRpdGxlfSk8L2E+PC9saT4iKQogICNlbmQKICAjc2V0KCR0bXBtc2cgPSAiJHt0bXBtc2d9PC91bD48cCBjbGFzcz0ke3F1b3RlfXh3aWtpbWVzc2FnZSR7cXVvdGV9PiIpCiAgI3NldCgkdG1wbXNnID0gJG1zZy5nZXQoImNvcmUuZGVsZXRlLmJhY2tsaW5rc1dhcm5pbmciLCBbJHRtcG1zZ10pKQogICNzZXQoJGZ1bGxtc2c9IiR7ZnVsbG1zZ30ke3RtcG1zZ308L3A+PHAgY2xhc3M9JHtxdW90ZX14d2lraW1lc3NhZ2Uke3F1b3RlfT4iKQogICNzZXQoJGhhc0lubGlua3MgPSB0cnVlKQojZW5kCiNpZigkb3JwaGFucyAmJiAkb3JwaGFucy5zaXplKCkgPiAwKQogICNzZXQoJHRtcG1zZyA9IjwvcD48dWwgc3R5bGU9JHtxdW90ZX10ZXh0LWFsaWduOiBsZWZ0OyR7cXVvdGV9PiIpCiAgI2ZvcmVhY2goJGRvY25hbWUgaW4gJG9ycGhhbnMpCiAgICAjc2V0KCRyZG9jID0gJHh3aWtpLmdldERvY3VtZW50KCRkb2NuYW1lKS5nZXRUcmFuc2xhdGVkRG9jdW1lbnQoKSkKICAgICNzZXQoJHRtcG1zZyA9ICIke3RtcG1zZ308bGk+PGEgaHJlZj0ke3F1b3RlfSR7cmRvYy5nZXRVUkwoJ3ZpZXcnKX0ke3F1b3RlfT4keHdpa2kuZ2V0WE1MRW5jb2RlZCgke3Jkb2MuZGlzcGxheVRpdGxlfSk8L2E+PC9saT4iKQogICNlbmQKICAjc2V0KCR0bXBtc2cgPSAiJHt0bXBtc2d9PC91bD48cCBjbGFzcz0ke3F1b3RlfXh3aWtpbWVzc2FnZSR7cXVvdGV9PiIpCiAgI3NldCgkdG1wbXNnID0gJG1zZy5nZXQoImNvcmUuZGVsZXRlLm9ycGhhbnNXYXJuaW5nIiwgWyR0bXBtc2ddKSkKICAjc2V0KCRmdWxsbXNnPSIke2Z1bGxtc2d9JHt0bXBtc2d9PC9wPjxwIGNsYXNzPSR7cXVvdGV9eHdpa2ltZXNzYWdlJHtxdW90ZX0+IikKICAjc2V0KCRoYXNJbmxpbmtzID0gdHJ1ZSkKI2VuZAojaWYoJHh3aWtpLmhhc1JlY3ljbGVCaW4oKSkKICAjaWYoJGhhc0lubGlua3MpCiAgICAjc2V0KCRmdWxsbXNnPSIke2Z1bGxtc2d9JHttc2cuZ2V0KCdjb3JlLnJlY3ljbGViaW4uY29uZmlybVdpdGhJbmxpbmtzJyl9IikKICAjZWxzZQogICAgI3NldCgkZnVsbG1zZyA9ICRtc2cuZ2V0KCJjb3JlLnJlY3ljbGViaW4uY29uZmlybSIpKQogICNlbmQKI2Vsc2UKICAjaWYoJGhhc0lubGlua3MpCiAgICAjc2V0KCRmdWxsbXNnPSIke2Z1bGxtc2d9JHttc2cuZ2V0KCdjb3JlLmRlbGV0ZS5jb25maXJtV2l0aElubGlua3MnKX0iKQogICNlbHNlCiAgICAjc2V0KCRmdWxsbXNnID0gJG1zZy5nZXQoImNvcmUuZGVsZXRlLmNvbmZpcm0iKSkKICAjZW5kCiNlbmQKI3h3aWtpbWVzc2FnZWJveCgkbXNnLmdldCgiY29yZS5kZWxldGUiKSAkZnVsbG1zZyAkZG9jLmdldFVSTCgidmlldyIsICJ4cGFnZT1kZWxldGVkJmFtcDtjb25maXJtPTEkIXtyZWRpcmVjdHBhcmFtfSZhbXA7JGxhbmd1YWdlcGFyYW1zIikgJGRvYy5nZXRVUkwoInZpZXciKSAkbXNnLmdldCgieWVzIikgJG1zZy5nZXQoIm5vIikpCiNlbHNlICMjIHJlcXVlc3QuaWQKICAjeHdpa2ltZXNzYWdlYm94c3RhcnQoJG1zZy5nZXQoJ2NvcmUuZGVsZXRlJykgJG1zZy5nZXQoJ2NvcmUucmVjeWNsZWJpbi5jb21wbGV0ZWx5RGVsZXRlQ29uZmlybScpKQogICAgPGZvcm0gYWN0aW9uPSIiIG1ldGhvZD0icG9zdCI+CiAgICAgIDxkaXYgY2xhc3M9ImhpZGRlbiI+CiAgICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iY29uZmlybSIgdmFsdWU9IjEiLz4KICAgICAgICA8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJpZCIgdmFsdWU9IiRyZXF1ZXN0LmlkIi8+CiAgICAgICAgI2lmKCIkIXtyZXF1ZXN0LnhyZWRpcmVjdH0iICE9ICcnKQogICAgICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0ieHJlZGlyZWN0IiB2YWx1ZT0iJHJlcXVlc3QueHJlZGlyZWN0Ii8+CiAgICAgICAgI2VuZAogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iYnV0dG9ud3JhcHBlciI+PGlucHV0IHR5cGU9InN1Ym1pdCIgY2xhc3M9ImJ1dHRvbiIgdmFsdWU9IiRtc2cuZ2V0KCd5ZXMnKSIvPjwvZGl2PgogICAgICAjaWYoIiQhe3JlcXVlc3QueHJlZGlyZWN0fSIgIT0gJycpCiAgICAgICAgI3NldCgkY2FuY2VsVXJsID0gJHJlcXVlc3QueHJlZGlyZWN0KQogICAgICAjZWxzZQogICAgICAgICNzZXQoJGNhbmNlbFVybCA9ICRkb2MuZ2V0VVJMKCkpCiAgICAgICNlbmQKICAgICAgPGRpdiBjbGFzcz0iYnV0dG9ud3JhcHBlciI+PGEgY2xhc3M9InNlY29uZGFyeSBidXR0b24iIGhyZWY9IiR7Y2FuY2VsVXJsfSI+JG1zZy5nZXQoJ25vJyk8L2E+PC9kaXY+CiAgICA8L2Zvcm0+CiAgI3h3aWtpbWVzc2FnZWJveGVuZCgpCiNlbmQKPGRpdiBjbGFzcz0iY2xlYXJmbG9hdHMiPjwvZGl2Pgo8L2Rpdj4jIyBtYWluQ29udGVudEFyZWEKPC9kaXY+IyMgbWFpbgojdGVtcGxhdGUoImVuZHBhZ2Uudm0iKQ==</content>
-</attachment>
-<attachment>
-<filename>deleted.vm</filename>
-<filesize>472</filesize>
-<author>xwiki:XWiki.Admin</author>
-<date>1266717254000</date>
-<version>1.1</version>
-<comment></comment>
-<content>IyMjCiMjIyBEb2N1bWVudCBkZWxldGVkIG1lc3NhZ2UKIyMjCiMjIwojdGVtcGxhdGUoInN0YXJ0cGFnZS52bSIpCjxkaXYgY2xhc3M9Im1haW4gbGF5b3V0c3Vic2VjdGlvbiI+CjxkaXYgaWQ9Im1haW5Db250ZW50QXJlYSI+CiNpZigkbWVzc2FnZSkKPGRpdiBpZD0ieHdpa2ltZXNzYWdlIj4kbWVzc2FnZTwvZGl2PgojZW5kCiN4d2lraW1lc3NhZ2Vib3hzdGFydCgkbXNnLmdldCgiZGVsZXRlIikgJG1zZy5nZXQoImRlbGV0ZWQiKSkKI3RlbXBsYXRlKCJyZWN5Y2xlYmlubGlzdC52bSIpCjxlbT5BY3R1YWxseSBub3QsIDxhIGhyZWY9IiRkb2MuZ2V0VVJMKCkiPmdvIGJhY2sgdG8gdGhlIGRvY3VtZW50PC9hPjwvZW0+CiN4d2lraW1lc3NhZ2Vib3hlbmQoKQo8ZGl2IGNsYXNzPSJjbGVhcmZsb2F0cyI+PC9kaXY+CjwvZGl2PiMjIG1haW5Db250ZW50QXJlYQo8L2Rpdj4jIyBtYWluCiN0ZW1wbGF0ZSgiZW5kcGFnZS52bSIpCg==</content>
-</attachment>
-<object>
-<class>
-<name>XWiki.XWikiSkins</name>
-<customClass></customClass>
-<customMapping></customMapping>
-<defaultViewSheet></defaultViewSheet>
-<defaultEditSheet></defaultEditSheet>
-<defaultWeb></defaultWeb>
-<nameField></nameField>
-<validationScript></validationScript>
-<baseskin>
-<name>baseskin</name>
-<number>2</number>
-<prettyName>Base Skin</prettyName>
-<size>30</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</baseskin>
-<edit.vm>
-<name>edit.vm</name>
-<number>9</number>
-<prettyName>Edit</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</edit.vm>
-<footer.vm>
-<name>footer.vm</name>
-<number>6</number>
-<prettyName>Footer</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</footer.vm>
-<header.vm>
-<name>header.vm</name>
-<number>5</number>
-<prettyName>Header</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</header.vm>
-<logo>
-<name>logo</name>
-<number>3</number>
-<prettyName>Logo</prettyName>
-<size>30</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</logo>
-<name>
-<name>name</name>
-<number>1</number>
-<prettyName>Name</prettyName>
-<size>30</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.StringClass</classType>
-</name>
-<style.css>
-<name>style.css</name>
-<number>4</number>
-<prettyName>Style</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</style.css>
-<view.vm>
-<name>view.vm</name>
-<number>8</number>
-<prettyName>View</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</view.vm>
-<viewheader.vm>
-<name>viewheader.vm</name>
-<number>7</number>
-<prettyName>View Header</prettyName>
-<rows>15</rows>
-<size>80</size>
-<unmodifiable>0</unmodifiable>
-<classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
-</viewheader.vm>
-</class>
-<name>Test.TestSkin</name>
-<number>0</number>
-<className>XWiki.XWikiSkins</className>
-<guid>eb1d3cad-9adf-4e3d-a95b-b66344297810</guid>
-<property>
-<baseskin>colibri</baseskin>
-</property>
-<property>
-<edit.vm></edit.vm>
-</property>
-<property>
-<footer.vm></footer.vm>
-</property>
-<property>
-<header.vm></header.vm>
-</property>
-<property>
-<logo></logo>
-</property>
-<property>
-<name></name>
-</property>
-<property>
-<style.css></style.css>
-</property>
-<property>
-<view.vm></view.vm>
-</property>
-<property>
-<viewheader.vm></viewheader.vm>
-</property>
-</object>
-<content></content></xwikidoc>
+  <web>Test</web>
+  <name>TestSkin</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebPreferences</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1266717254000</creationDate>
+  <date>1266717254000</date>
+  <contentUpdateDate>1266717254000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Mostly empty skin that prevents actual document deletion</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <attachment>
+    <filename>delete.vm</filename>
+    <filesize>3307</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1266717254000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>IyMjCiMjIyBEZWxldGUgcGFnZSBjb25maXJtIG1lc3NhZ2UKIyMjCiMjIwojdGVtcGxhdGUoInN0YXJ0cGFnZS52bSIpCjxkaXYgY2xhc3M9Im1haW4gbGF5b3V0c3Vic2VjdGlvbiI+CjxkaXYgaWQ9Im1haW5Db250ZW50QXJlYSI+CiNpZigkbWVzc2FnZSkKICA8ZGl2IGlkPSJ4d2lraW1lc3NhZ2UiPiRtZXNzYWdlPC9kaXY+CiNlbmQKI2lmKCIkIXtyZXF1ZXN0LmlkfSIgPT0gJycpCiNzZXQoJGxpbmtzPSRkb2MuZ2V0QmFja2xpbmtzKCkpCiNzZXQoJG9ycGhhbnMgPSAkeHdpa2kuc2VhcmNoRG9jdW1lbnRzKCIgd2hlcmUgZG9jLmZ1bGxOYW1lIDw+ID8gYW5kIChkb2MucGFyZW50ID0gPyBvciAoZG9jLnBhcmVudCA9ID8gYW5kIGRvYy5zcGFjZSA9ID8pKSIsIFsiJHtkb2MuZnVsbE5hbWV9IiwgJHtkb2MuZnVsbE5hbWV9LCAke2RvYy5uYW1lfSwgJHtkb2Muc3BhY2V9XSkpCiNpZigkcmVxdWVzdC54cmVkaXJlY3QpCiAgI3NldCgkcmVkaXJlY3RwYXJhbSA9ICImYW1wO3hyZWRpcmVjdD0kcmVxdWVzdC54cmVkaXJlY3QiKQojZW5kCiNzZXQoJHF1b3RlID0gJyInKQojc2V0KCRoYXNJbmxpbmtzID0gZmFsc2UpCiNzZXQoJGZ1bGxtc2cgPSAiIikKI2lmKCRsaW5rcyAmJiAkbGlua3Muc2l6ZSgpID4gMCkKICAjc2V0KCR0bXBtc2cgPSAiPC9wPjx1bCBzdHlsZT0ke3F1b3RlfXRleHQtYWxpZ246IGxlZnQ7JHtxdW90ZX0+IikKICAjZm9yZWFjaCgkZG9jbmFtZSBpbiAkbGlua3MpCiAgICAjc2V0KCRyZG9jID0gJHh3aWtpLmdldERvY3VtZW50KCRkb2NuYW1lKS5nZXRUcmFuc2xhdGVkRG9jdW1lbnQoKSkKICAgICNzZXQoJHRtcG1zZyA9ICIke3RtcG1zZ308bGk+PGEgaHJlZj0ke3F1b3RlfSR7cmRvYy5nZXRVUkwoJ3ZpZXcnKX0ke3F1b3RlfT4keHdpa2kuZ2V0WE1MRW5jb2RlZCgke3Jkb2MuZGlzcGxheVRpdGxlfSk8L2E+PC9saT4iKQogICNlbmQKICAjc2V0KCR0bXBtc2cgPSAiJHt0bXBtc2d9PC91bD48cCBjbGFzcz0ke3F1b3RlfXh3aWtpbWVzc2FnZSR7cXVvdGV9PiIpCiAgI3NldCgkdG1wbXNnID0gJG1zZy5nZXQoImNvcmUuZGVsZXRlLmJhY2tsaW5rc1dhcm5pbmciLCBbJHRtcG1zZ10pKQogICNzZXQoJGZ1bGxtc2c9IiR7ZnVsbG1zZ30ke3RtcG1zZ308L3A+PHAgY2xhc3M9JHtxdW90ZX14d2lraW1lc3NhZ2Uke3F1b3RlfT4iKQogICNzZXQoJGhhc0lubGlua3MgPSB0cnVlKQojZW5kCiNpZigkb3JwaGFucyAmJiAkb3JwaGFucy5zaXplKCkgPiAwKQogICNzZXQoJHRtcG1zZyA9IjwvcD48dWwgc3R5bGU9JHtxdW90ZX10ZXh0LWFsaWduOiBsZWZ0OyR7cXVvdGV9PiIpCiAgI2ZvcmVhY2goJGRvY25hbWUgaW4gJG9ycGhhbnMpCiAgICAjc2V0KCRyZG9jID0gJHh3aWtpLmdldERvY3VtZW50KCRkb2NuYW1lKS5nZXRUcmFuc2xhdGVkRG9jdW1lbnQoKSkKICAgICNzZXQoJHRtcG1zZyA9ICIke3RtcG1zZ308bGk+PGEgaHJlZj0ke3F1b3RlfSR7cmRvYy5nZXRVUkwoJ3ZpZXcnKX0ke3F1b3RlfT4keHdpa2kuZ2V0WE1MRW5jb2RlZCgke3Jkb2MuZGlzcGxheVRpdGxlfSk8L2E+PC9saT4iKQogICNlbmQKICAjc2V0KCR0bXBtc2cgPSAiJHt0bXBtc2d9PC91bD48cCBjbGFzcz0ke3F1b3RlfXh3aWtpbWVzc2FnZSR7cXVvdGV9PiIpCiAgI3NldCgkdG1wbXNnID0gJG1zZy5nZXQoImNvcmUuZGVsZXRlLm9ycGhhbnNXYXJuaW5nIiwgWyR0bXBtc2ddKSkKICAjc2V0KCRmdWxsbXNnPSIke2Z1bGxtc2d9JHt0bXBtc2d9PC9wPjxwIGNsYXNzPSR7cXVvdGV9eHdpa2ltZXNzYWdlJHtxdW90ZX0+IikKICAjc2V0KCRoYXNJbmxpbmtzID0gdHJ1ZSkKI2VuZAojaWYoJHh3aWtpLmhhc1JlY3ljbGVCaW4oKSkKICAjaWYoJGhhc0lubGlua3MpCiAgICAjc2V0KCRmdWxsbXNnPSIke2Z1bGxtc2d9JHttc2cuZ2V0KCdjb3JlLnJlY3ljbGViaW4uY29uZmlybVdpdGhJbmxpbmtzJyl9IikKICAjZWxzZQogICAgI3NldCgkZnVsbG1zZyA9ICRtc2cuZ2V0KCJjb3JlLnJlY3ljbGViaW4uY29uZmlybSIpKQogICNlbmQKI2Vsc2UKICAjaWYoJGhhc0lubGlua3MpCiAgICAjc2V0KCRmdWxsbXNnPSIke2Z1bGxtc2d9JHttc2cuZ2V0KCdjb3JlLmRlbGV0ZS5jb25maXJtV2l0aElubGlua3MnKX0iKQogICNlbHNlCiAgICAjc2V0KCRmdWxsbXNnID0gJG1zZy5nZXQoImNvcmUuZGVsZXRlLmNvbmZpcm0iKSkKICAjZW5kCiNlbmQKI3h3aWtpbWVzc2FnZWJveCgkbXNnLmdldCgiY29yZS5kZWxldGUiKSAkZnVsbG1zZyAkZG9jLmdldFVSTCgidmlldyIsICJ4cGFnZT1kZWxldGVkJmFtcDtjb25maXJtPTEkIXtyZWRpcmVjdHBhcmFtfSZhbXA7JGxhbmd1YWdlcGFyYW1zIikgJGRvYy5nZXRVUkwoInZpZXciKSAkbXNnLmdldCgieWVzIikgJG1zZy5nZXQoIm5vIikpCiNlbHNlICMjIHJlcXVlc3QuaWQKICAjeHdpa2ltZXNzYWdlYm94c3RhcnQoJG1zZy5nZXQoJ2NvcmUuZGVsZXRlJykgJG1zZy5nZXQoJ2NvcmUucmVjeWNsZWJpbi5jb21wbGV0ZWx5RGVsZXRlQ29uZmlybScpKQogICAgPGZvcm0gYWN0aW9uPSIiIG1ldGhvZD0icG9zdCI+CiAgICAgIDxkaXYgY2xhc3M9ImhpZGRlbiI+CiAgICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iY29uZmlybSIgdmFsdWU9IjEiLz4KICAgICAgICA8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJpZCIgdmFsdWU9IiRyZXF1ZXN0LmlkIi8+CiAgICAgICAgI2lmKCIkIXtyZXF1ZXN0LnhyZWRpcmVjdH0iICE9ICcnKQogICAgICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0ieHJlZGlyZWN0IiB2YWx1ZT0iJHJlcXVlc3QueHJlZGlyZWN0Ii8+CiAgICAgICAgI2VuZAogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iYnV0dG9ud3JhcHBlciI+PGlucHV0IHR5cGU9InN1Ym1pdCIgY2xhc3M9ImJ1dHRvbiIgdmFsdWU9IiRtc2cuZ2V0KCd5ZXMnKSIvPjwvZGl2PgogICAgICAjaWYoIiQhe3JlcXVlc3QueHJlZGlyZWN0fSIgIT0gJycpCiAgICAgICAgI3NldCgkY2FuY2VsVXJsID0gJHJlcXVlc3QueHJlZGlyZWN0KQogICAgICAjZWxzZQogICAgICAgICNzZXQoJGNhbmNlbFVybCA9ICRkb2MuZ2V0VVJMKCkpCiAgICAgICNlbmQKICAgICAgPGRpdiBjbGFzcz0iYnV0dG9ud3JhcHBlciI+PGEgY2xhc3M9InNlY29uZGFyeSBidXR0b24iIGhyZWY9IiR7Y2FuY2VsVXJsfSI+JG1zZy5nZXQoJ25vJyk8L2E+PC9kaXY+CiAgICA8L2Zvcm0+CiAgI3h3aWtpbWVzc2FnZWJveGVuZCgpCiNlbmQKPGRpdiBjbGFzcz0iY2xlYXJmbG9hdHMiPjwvZGl2Pgo8L2Rpdj4jIyBtYWluQ29udGVudEFyZWEKPC9kaXY+IyMgbWFpbgojdGVtcGxhdGUoImVuZHBhZ2Uudm0iKQ==</content>
+  </attachment>
+  <attachment>
+    <filename>deleted.vm</filename>
+    <filesize>472</filesize>
+    <author>xwiki:XWiki.Admin</author>
+    <date>1266717254000</date>
+    <version>1.1</version>
+    <comment/>
+    <content>IyMjCiMjIyBEb2N1bWVudCBkZWxldGVkIG1lc3NhZ2UKIyMjCiMjIwojdGVtcGxhdGUoInN0YXJ0cGFnZS52bSIpCjxkaXYgY2xhc3M9Im1haW4gbGF5b3V0c3Vic2VjdGlvbiI+CjxkaXYgaWQ9Im1haW5Db250ZW50QXJlYSI+CiNpZigkbWVzc2FnZSkKPGRpdiBpZD0ieHdpa2ltZXNzYWdlIj4kbWVzc2FnZTwvZGl2PgojZW5kCiN4d2lraW1lc3NhZ2Vib3hzdGFydCgkbXNnLmdldCgiZGVsZXRlIikgJG1zZy5nZXQoImRlbGV0ZWQiKSkKI3RlbXBsYXRlKCJyZWN5Y2xlYmlubGlzdC52bSIpCjxlbT5BY3R1YWxseSBub3QsIDxhIGhyZWY9IiRkb2MuZ2V0VVJMKCkiPmdvIGJhY2sgdG8gdGhlIGRvY3VtZW50PC9hPjwvZW0+CiN4d2lraW1lc3NhZ2Vib3hlbmQoKQo8ZGl2IGNsYXNzPSJjbGVhcmZsb2F0cyI+PC9kaXY+CjwvZGl2PiMjIG1haW5Db250ZW50QXJlYQo8L2Rpdj4jIyBtYWluCiN0ZW1wbGF0ZSgiZW5kcGFnZS52bSIpCg==</content>
+  </attachment>
+  <object>
+    <class>
+      <name>XWiki.XWikiSkins</name>
+      <customClass/>
+      <customMapping/>
+      <defaultViewSheet/>
+      <defaultEditSheet/>
+      <defaultWeb/>
+      <nameField/>
+      <validationScript/>
+      <baseskin>
+        <name>baseskin</name>
+        <number>2</number>
+        <prettyName>Base Skin</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </baseskin>
+      <edit.vm>
+        <name>edit.vm</name>
+        <number>9</number>
+        <prettyName>Edit</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </edit.vm>
+      <footer.vm>
+        <name>footer.vm</name>
+        <number>6</number>
+        <prettyName>Footer</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </footer.vm>
+      <header.vm>
+        <name>header.vm</name>
+        <number>5</number>
+        <prettyName>Header</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </header.vm>
+      <logo>
+        <name>logo</name>
+        <number>3</number>
+        <prettyName>Logo</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </logo>
+      <name>
+        <name>name</name>
+        <number>1</number>
+        <prettyName>Name</prettyName>
+        <size>30</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
+      </name>
+      <style.css>
+        <name>style.css</name>
+        <number>4</number>
+        <prettyName>Style</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </style.css>
+      <view.vm>
+        <name>view.vm</name>
+        <number>8</number>
+        <prettyName>View</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </view.vm>
+      <viewheader.vm>
+        <name>viewheader.vm</name>
+        <number>7</number>
+        <prettyName>View Header</prettyName>
+        <rows>15</rows>
+        <size>80</size>
+        <unmodifiable>0</unmodifiable>
+        <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
+      </viewheader.vm>
+    </class>
+    <name>Test.TestSkin</name>
+    <number>0</number>
+    <className>XWiki.XWikiSkins</className>
+    <guid>eb1d3cad-9adf-4e3d-a95b-b66344297810</guid>
+    <property>
+      <baseskin>colibri</baseskin>
+    </property>
+    <property>
+      <edit.vm/>
+    </property>
+    <property>
+      <footer.vm/>
+    </property>
+    <property>
+      <header.vm/>
+    </property>
+    <property>
+      <logo/>
+    </property>
+    <property>
+      <name/>
+    </property>
+    <property>
+      <style.css/>
+    </property>
+    <property>
+      <view.vm/>
+    </property>
+    <property>
+      <viewheader.vm/>
+    </property>
+  </object>
+  <content/>
+</xwikidoc>

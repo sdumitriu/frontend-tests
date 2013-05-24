@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Test</web>
-<name>S-Sendpage</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1319180291000</creationDate>
-<date>1319180441000</date>
-<contentUpdateDate>1319180441000</contentUpdateDate>
-<version>1.1</version>
-<title>Support test: Problem solving</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<content>{{info}}**Task:** You receive the following mail, how do you approach the problem?
+  <web>Test</web>
+  <name>S-Sendpage</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1319180291000</creationDate>
+  <date>1319180441000</date>
+  <contentUpdateDate>1319180441000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Support test: Problem solving</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}**Task:** You receive the following mail, how do you approach the problem?
 
 &gt; Hello 
 &gt; 
@@ -33,4 +34,5 @@
 &gt; 
 &gt; Is their a way to change the send for this function? 
 &gt; Note that the email settings are good on the administration page.
-{{/info}}</content></xwikidoc>
+{{/info}}</content>
+</xwikidoc>

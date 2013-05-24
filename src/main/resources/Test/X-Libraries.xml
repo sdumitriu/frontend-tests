@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Test</web>
-<name>X-Libraries</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1339567171000</creationDate>
-<date>1339604304000</date>
-<contentUpdateDate>1339604304000</contentUpdateDate>
-<version>1.1</version>
-<title>XML test: Java Libraries</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<content>{{info}}**Task:** Describe a bit the following libraries/packages:
+  <web>Test</web>
+  <name>X-Libraries</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1339567171000</creationDate>
+  <date>1339604304000</date>
+  <contentUpdateDate>1339604304000</contentUpdateDate>
+  <version>1.1</version>
+  <title>XML test: Java Libraries</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}**Task:** Describe a bit the following libraries/packages:
 
 1. jdom
 1. dom4j
@@ -32,4 +33,5 @@
 1. xalan
 1. the javax.xml package
 1. the org.w3.dom package
-{{/info}}</content></xwikidoc>
+{{/info}}</content>
+</xwikidoc>

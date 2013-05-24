@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <xwikidoc>
-<web>Test</web>
-<name>J-This</name>
-<language></language>
-<defaultLanguage></defaultLanguage>
-<translation>0</translation>
-<parent>Test.WebHome</parent>
-<creator>xwiki:XWiki.Admin</creator>
-<author>xwiki:XWiki.Admin</author>
-<customClass></customClass>
-<contentAuthor>xwiki:XWiki.Admin</contentAuthor>
-<creationDate>1281571424000</creationDate>
-<date>1281571939000</date>
-<contentUpdateDate>1281571939000</contentUpdateDate>
-<version>1.1</version>
-<title>JS Test: This</title>
-<template></template>
-<defaultTemplate></defaultTemplate>
-<validationScript></validationScript>
-<comment></comment>
-<minorEdit>false</minorEdit>
-<syntaxId>xwiki/2.0</syntaxId>
-<hidden>false</hidden>
-<content>{{info}}**Task:** What do the following code snippets return? Why?{{/info}}
+  <web>Test</web>
+  <name>J-This</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <parent>Test.WebHome</parent>
+  <creator>xwiki:XWiki.Admin</creator>
+  <author>xwiki:XWiki.Admin</author>
+  <customClass/>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <creationDate>1281571424000</creationDate>
+  <date>1281571939000</date>
+  <contentUpdateDate>1281571939000</contentUpdateDate>
+  <version>1.1</version>
+  <title>JS Test: This</title>
+  <template/>
+  <defaultTemplate/>
+  <validationScript/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}**Task:** What do the following code snippets return? Why?{{/info}}
 
 {{code language="javascript"}}
 var foo = {
@@ -48,4 +49,5 @@ var foo = {
 (function() {
   return typeof arguments[0]();
 })(foo.bar);
-{{/code}}</content></xwikidoc>
+{{/code}}</content>
+</xwikidoc>
