@@ -219,7 +219,9 @@ The whole ensemble (content + side column) fills the entire window width.
     * The second places the side column on the right of the content(((
       [ the content ] [ col ])))
 
-**Note:** **No changes allowed in the HTML.**{{/info}}
+**Note:** **No changes allowed in the HTML.**
+
+**Note 2:** You can use the //Copy// entry from the //Page// menu to create a copy of this document for the second stylesheet.{{/info}}
 
 {{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
 
