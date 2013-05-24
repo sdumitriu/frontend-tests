@@ -217,6 +217,7 @@ G6wH6DGQAAAAAElFTkSuQmCC
       <validationScript/>
       <cache>
         <cache>0</cache>
+        <disabled>0</disabled>
         <displayType>select</displayType>
         <multiSelect>0</multiSelect>
         <name>cache</name>
@@ -231,6 +232,7 @@ G6wH6DGQAAAAAElFTkSuQmCC
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </cache>
       <code>
+        <disabled>0</disabled>
         <name>code</name>
         <number>2</number>
         <prettyName>Code</prettyName>
@@ -240,6 +242,7 @@ G6wH6DGQAAAAAElFTkSuQmCC
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
       <name>
+        <disabled>0</disabled>
         <name>name</name>
         <number>1</number>
         <prettyName>Name</prettyName>
@@ -248,6 +251,7 @@ G6wH6DGQAAAAAElFTkSuQmCC
         <classType>com.xpn.xwiki.objects.classes.StringClass</classType>
       </name>
       <parse>
+        <disabled>0</disabled>
         <displayFormType>select</displayFormType>
         <displayType>yesno</displayType>
         <name>parse</name>
@@ -258,6 +262,7 @@ G6wH6DGQAAAAAElFTkSuQmCC
       </parse>
       <use>
         <cache>0</cache>
+        <disabled>0</disabled>
         <displayType>select</displayType>
         <multiSelect>0</multiSelect>
         <name>use</name>
@@ -323,6 +328,7 @@ G6wH6DGQAAAAAElFTkSuQmCC
       <validationScript/>
       <allow>
         <defaultValue>1</defaultValue>
+        <disabled>0</disabled>
         <displayFormType>select</displayFormType>
         <displayType>allow</displayType>
         <name>allow</name>
@@ -333,20 +339,22 @@ G6wH6DGQAAAAAElFTkSuQmCC
       </allow>
       <groups>
         <cache>0</cache>
-        <displayType>select</displayType>
+        <disabled>0</disabled>
+        <displayType>input</displayType>
         <multiSelect>1</multiSelect>
         <name>groups</name>
         <number>1</number>
+        <picker>1</picker>
         <prettyName>Groups</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
         <size>5</size>
         <unmodifiable>0</unmodifiable>
-        <usesList>1</usesList>
         <classType>com.xpn.xwiki.objects.classes.GroupsClass</classType>
       </groups>
       <levels>
         <cache>0</cache>
+        <disabled>0</disabled>
         <displayType>select</displayType>
         <multiSelect>1</multiSelect>
         <name>levels</name>
@@ -360,16 +368,17 @@ G6wH6DGQAAAAAElFTkSuQmCC
       </levels>
       <users>
         <cache>0</cache>
-        <displayType>select</displayType>
+        <disabled>0</disabled>
+        <displayType>input</displayType>
         <multiSelect>1</multiSelect>
         <name>users</name>
         <number>3</number>
+        <picker>1</picker>
         <prettyName>Users</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
         <size>5</size>
         <unmodifiable>0</unmodifiable>
-        <usesList>1</usesList>
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
