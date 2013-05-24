@@ -171,8 +171,8 @@ Write a velocity macro that displays all the documents in the wiki as a tree, wh
 Resources:
 
 * [[Velocity syntax&gt;&gt;http://velocity.apache.org/engine/devel/user-guide.html#Directives]]
-* [[XWikiDocument API (JavaDoc)&gt;&gt;http://nexus.xwiki.org/nexus/service/local/repositories/releases/archive/org/xwiki/platform/xwiki-platform-oldcore/3.5/xwiki-platform-oldcore-3.5-javadoc.jar/!/com/xpn/xwiki/api/Document.html]]
-* [[XWiki API (JavaDoc)&gt;&gt;http://nexus.xwiki.org/nexus/service/local/repositories/releases/archive/org/xwiki/platform/xwiki-platform-oldcore/3.5/xwiki-platform-oldcore-3.5-javadoc.jar/!/com/xpn/xwiki/api/XWiki.html]]
+* [[XWikiDocument API (JavaDoc)&gt;&gt;http://nexus.xwiki.org/nexus/service/local/repositories/releases/archive/org/xwiki/platform/xwiki-platform-oldcore/5.0.1/xwiki-platform-oldcore-5.0.1-javadoc.jar/!/com/xpn/xwiki/api/Document.html]]
+* [[XWiki API (JavaDoc)&gt;&gt;http://nexus.xwiki.org/nexus/service/local/repositories/releases/archive/org/xwiki/platform/xwiki-platform-oldcore/5.0.1/xwiki-platform-oldcore-5.0.1-javadoc.jar/!/com/xpn/xwiki/api/XWiki.html]]
 
 Sample output (please display for each item its ##fullName## and ##parent## for easier verification of the result):
 
