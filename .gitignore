@@ -1,0 +1,6 @@
+# Build
+target
+target-eclipse
+
+# Mac files
+.DS_Store
