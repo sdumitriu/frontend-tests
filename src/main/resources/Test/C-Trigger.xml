@@ -206,7 +206,7 @@
   </object>
   <content>{{info}}**Task:** Write the CSS rules that allow to display the panel only when hovering the trigger text. **No changes allowed in the HTML.**{{/info}}
 
-{{velocity}}{{html}}&lt;a class="css test-edit-link" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="css test-edit-link" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
 
 {{code}}
 &lt;div id="trigger"&gt;

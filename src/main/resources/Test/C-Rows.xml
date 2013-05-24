@@ -191,7 +191,7 @@
   </object>
   <content>{{info}}**Without altering the HTML**, make the background color different (e.g. light yellow #FFD) for all the cells in even rows of the following table.{{/info}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
 
 {{code}}
 &lt;table id="allData"&gt;

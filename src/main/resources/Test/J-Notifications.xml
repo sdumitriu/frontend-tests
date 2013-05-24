@@ -193,7 +193,7 @@
   </object>
   <content>{{info}}**Task:** Read the source code for the [[notification widget&gt;&gt;https://github.com/xwiki/xwiki-platform/blob/master/xwiki-platform-core/xwiki-platform-web/src/main/webapp/resources/uicomponents/widgets/notification.js]], explain it, then write the JS code that displays the corresponding notification when clicking each trigger. **No changes allowed in the HTML.**{{/info}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link js" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.JavaScriptExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.JavaScriptExtension_0_code]')"&gt;Edit JS&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link js" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.JavaScriptExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.JavaScriptExtension_0_code'']')"&gt;Edit JS&lt;/a&gt;{{/html}}{{/velocity}}
 
 {{html}}
 &lt;span id="showWarning"&gt;Show a warning&lt;/span&gt;&lt;br/&gt;

@@ -326,7 +326,7 @@
   </object>
   <content>{{info}}**Task:** Set the href attributes of the show/hide links as necessary and write the CSS rules that "implement" the actual show/hide when clicking on the respective link. **No other changes allowed in the HTML. Do not use Javascript code in the href attribute.** The solution is only required to work in Mozilla Firefox 3.5+{{/info}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt; | &lt;a class="test-edit-link html" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;object=0&amp;property=description&amp;x-maximized=TEXTAREA[id=Blog.BlogClass_0_description]')"&gt;Edit HTML&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt; | &lt;a class="test-edit-link html" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;object=0&amp;property=description&amp;x-maximized=TEXTAREA[id=''Blog.BlogClass_0_description'']')"&gt;Edit HTML&lt;/a&gt;{{/html}}{{/velocity}}
 
 
 {{velocity}}{{code}}

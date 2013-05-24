@@ -363,7 +363,7 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
 
 image:tree.png
 
-{{velocity}}{{html}}&lt;a class="css test-edit-link" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="css test-edit-link" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
 
 {{velocity}}{{code}}
 $doc.getObject('Blog.BlogClass').getProperty('description').value

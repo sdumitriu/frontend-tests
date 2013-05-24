@@ -224,7 +224,7 @@ The whole ensemble (content + side columns) fills the entire window width.
 
 **Note:** The layouts must be identical in all browsers (to test on IE6, FF). **No changes allowed in the HTML.**{{/info}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
 
 {{code}}
 &lt;div id="all"&gt;

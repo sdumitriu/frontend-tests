@@ -255,7 +255,7 @@ a=42, b=35 =&gt; 7
 a=-42, b=35 =&gt; No negative number allowed
 {{/code}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;number=0&amp;property=description&amp;x-maximized=TEXTAREA[id=Blog.BlogClass_0_description]')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;number=0&amp;property=description&amp;x-maximized=TEXTAREA[id=''Blog.BlogClass_0_description'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
 
 {{velocity}}
 #evaluate($doc.getObject('Blog.BlogClass').getProperty('description').value)

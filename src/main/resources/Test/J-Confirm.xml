@@ -192,5 +192,5 @@
   </object>
   <content>{{info}}**Task:** Read the source code for the [[confirmation box widget&gt;&gt;https://github.com/xwiki/xwiki-platform/blob/master/xwiki-platform-core/xwiki-platform-web/src/main/webapp/resources/uicomponents/widgets/confirmationBox.js]], explain it, then write the JS code that asks for confirmation when clicking the delete document menu entry. **No changes allowed in the HTML.**{{/info}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link js" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.JavaScriptExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.JavaScriptExtension_0_code]')"&gt;Edit JS&lt;/a&gt;{{/html}}{{/velocity}}</content>
+{{velocity}}{{html}}&lt;a class="test-edit-link js" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.JavaScriptExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.JavaScriptExtension_0_code'']')"&gt;Edit JS&lt;/a&gt;{{/html}}{{/velocity}}</content>
 </xwikidoc>

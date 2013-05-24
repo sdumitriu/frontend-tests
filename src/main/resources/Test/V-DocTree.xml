@@ -243,7 +243,7 @@ Write a velocity macro that displays all the documents in the wiki as a tree, wh
 * they are top-level nodes in the tree if they are the space's "//WebHome//" (their name is "//&lt;Space&gt;.WebHome//") or if the "//WebHome//" is missing
 {{/info}}
 
-{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;number=0&amp;property=description&amp;x-maximized=TEXTAREA[id=Blog.BlogClass_0_description]')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Blog.BlogClass&amp;number=0&amp;property=description&amp;x-maximized=TEXTAREA[id=''Blog.BlogClass_0_description'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
 
 
 Resources:
