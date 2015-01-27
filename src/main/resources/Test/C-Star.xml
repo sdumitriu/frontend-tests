@@ -374,7 +374,7 @@ EgdmCSFxYJYQEgdmCSFx/B+4yqLozWJS7wAAAABJRU5ErkJggg==
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write the CSS rules that create the following image. **No changes allowed in the HTML.**{{/info}}
+  <content>{{info}}**Task:** Write the CSS rules that create the following image. **No changes allowed in the HTML.** The solution is required to work in **Mozilla Firefox 3.0+**.{{/info}}
 
 image:star.png
 
