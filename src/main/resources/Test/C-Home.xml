@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-Home</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1310433215000</creationDate>
-  <date>1310435259000</date>
-  <contentUpdateDate>1310435259000</contentUpdateDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1426865967000</date>
+  <contentUpdateDate>1426865967000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: Home</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Write the CSS rules to style the link as in the following image. **No changes allowed in the HTML.**{{/info}}
+
+image:home.png
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', "editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=$escapetool.url('TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')")"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{velocity}}{{code}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/code}}
+
+{{html}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/html}}{{/velocity}}</content>
   <attachment>
     <filename>home.png</filename>
-    <filesize>973</filesize>
     <author>xwiki:XWiki.Admin</author>
-    <date>1310435091000</date>
+    <date>1426865967000</date>
     <version>1.1</version>
     <comment/>
-    <content>iVBORw0KGgoAAAANSUhEUgAAAFAAAAAUCAIAAACVui2AAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
-AA7EAAAOxAGVKw4bAAADcElEQVRYhWP8//8/w0gCTPiln714ljkvM2t+1vMXz+njIFoDRjwxvP3I
-9uZLzcdZjjMwMFj9sarVq/Ww8aCj22gCcHq4Y1VH87vmb0zf4CLc/7hrhWrLw8rp5TaaACwevn77
-etP+phUMK7BqiGSIrHOq01DRoL3baALQPbxi14qm203XWa/j0aP1W6tOrS7cNZzGbqMJQHj427dv
-zeuaO751EKmzkquyNriWk5OTZm6jCYB6+Pj5480nm7czbSdJs9c/r1rzWgtDC9q4jSaAiYGBYcbG
-GSHHQ0j1LQMDwzambSHHQ2Zumoks2Lv7Wunac8giV5998Ji09/H7rxS6lSqAhYGBIcM/I4MhA8Jn
-nMVIpM7/aUOyxcJCfyv//vu//PSDfTeff/j2W0mEJ9VWVV2cDyJVsf68mhgvMxPj3hsvOFiZI00V
-HNQl5h+9c/D2Swk+zkhTBQNZIbg526483XzpyevPPyyURN00JfVkBImxnUBLixZg86UnGy48ctOU
-avLT52ZnKVt77teff3DZHdeevf7ys9RN21RBuH/P9e6dVz///FPqpi0nxN249dKff9Bktebco2Wn
-7vvqyfSEGKuK8dZtvvjg7RdibCcQw8jplvjUfvnpe49Je3HJHrnzyldPNsJUgYGBQVOCP2zWoTMP
-31opi0JkuVhZSly1GBgYtKX4t115euf151kxFgwMDGrifNuvPrvx4qOOlMDff/+XnrqXaafupiXJ
-wMCgIMzz8O3XvTdeJFurEHQbTZK0qhhvgbMmnHvvzZfe3dcg7A/ff119/jHRWhnCZWZiNJQTOnL3
-FdzDJgrCEAYTI6O8EI+WJD+Ey8bMJCPAdevlJx0pgRefvn//9bdvz7W+PdfgtsgKcg+YhzlYWZRF
-eeHcH7//oilgZMCZWLhYmeFsZkYGLjYEl4mRAZKi//77z8DA0BFkZEBcvkUG9M7DApxs2pL85x69
-hXD//f9/4fE7G2UxkgyREuDiYGXed4OcDtwAlNI2KmJLTt5jZWbSlhJYffbh77//TeSFSTKBhYkx
-zkJpwbG7bMzMLpoSbCzM155/+Pvvv7++LGG95DqbfOCrJ/Pl5+8dV5+tOPNASYS3K9iIjYXkhBZk
-KCfAybb+wqO9N56zsjApifCGGskRoxG984BWFOMppYdowwPfAMCwBACjNUV1cDgO2gAAAABJRU5E
-rkJggg==
-</content>
+    <content>iVBORw0KGgoAAAANSUhEUgAAAFAAAAAUCAIAAACVui2AAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADcElEQVRYhWP8//8/w0gCTPiln714ljkvM2t+1vMXz+njIFoDRjwxvP3I9uZLzcdZjjMwMFj9sarVq/Ww8aCj22gCcHq4Y1VH87vmb0zf4CLc/7hrhWrLw8rp5TaaACwevn77etP+phUMK7BqiGSIrHOq01DRoL3baALQPbxi14qm203XWa/j0aP1W6tOrS7cNZzGbqMJQHj427dvzeuaO751EKmzkquyNriWk5OTZm6jCYB6+Pj5480nm7czbSdJs9c/r1rzWgtDC9q4jSaAiYGBYcbGGSHHQ0j1LQMDwzambSHHQ2Zumoks2Lv7Wunac8giV5998Ji09/H7rxS6lSqAhYGBIcM/I4MhA8JnnMVIpM7/aUOyxcJCfyv//vu//PSDfTeff/j2W0mEJ9VWVV2cDyJVsf68mhgvMxPj3hsvOFiZI00VHNQl5h+9c/D2Swk+zkhTBQNZIbg526483XzpyevPPyyURN00JfVkBImxnUBLixZg86UnGy48ctOUavLT52ZnKVt77teff3DZHdeevf7ys9RN21RBuH/P9e6dVz///FPqpi0nxN249dKff9Bktebco2Wn7vvqyfSEGKuK8dZtvvjg7RdibCcQw8jplvjUfvnpe49Je3HJHrnzyldPNsJUgYGBQVOCP2zWoTMP31opi0JkuVhZSly1GBgYtKX4t115euf151kxFgwMDGrifNuvPrvx4qOOlMDff/+XnrqXaafupiXJwMCgIMzz8O3XvTdeJFurEHQbTZK0qhhvgbMmnHvvzZfe3dcg7A/ff119/jHRWhnCZWZiNJQTOnL3FdzDJgrCEAYTI6O8EI+WJD+Ey8bMJCPAdevlJx0pgRefvn//9bdvz7W+PdfgtsgKcg+YhzlYWZRFeeHcH7//oilgZMCZWLhYmeFsZkYGLjYEl4mRAZKi//77z8DA0BFkZEBcvkUG9M7DApxs2pL85x69hXD//f9/4fE7G2UxkgyREuDiYGXed4OcDtwAlNI2KmJLTt5jZWbSlhJYffbh77//TeSFSTKBhYkxzkJpwbG7bMzMLpoSbCzM155/+Pvvv7++LGG95DqbfOCrJ/Pl5+8dV5+tOPNASYS3K9iIjYXkhBZkKCfAybb+wqO9N56zsjApifCGGskRoxG984BWFOMppYdowwPfAMCwBACjNUV1cDgO2gAAAABJRU5ErkJggg==</content>
+    <filesize>973</filesize>
   </attachment>
   <object>
+    <name>Test.C-Home</name>
+    <number>0</number>
+    <className>Test.Textarea</className>
+    <guid>e8c75fb6-c98b-4837-854a-a48a43c6bd03</guid>
     <class>
       <name>Test.Textarea</name>
       <customClass/>
@@ -75,15 +71,15 @@ rkJggg==
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
     </class>
-    <name>Test.C-Home</name>
-    <number>0</number>
-    <className>Test.Textarea</className>
-    <guid>e8c75fb6-c98b-4837-854a-a48a43c6bd03</guid>
     <property>
       <code>&lt;p class="home"&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/p&gt;</code>
     </property>
   </object>
   <object>
+    <name>Test.C-Home</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>80bc0a80-0141-40dd-ba61-452bc5c2163d</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -103,7 +99,7 @@ rkJggg==
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -119,6 +115,22 @@ rkJggg==
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -148,17 +160,13 @@ rkJggg==
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Home</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>80bc0a80-0141-40dd-ba61-452bc5c2163d</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -178,6 +186,10 @@ rkJggg==
     </property>
   </object>
   <object>
+    <name>Test.C-Home</name>
+    <number>1</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>928833cc-0be1-4741-aed7-d475c38cbe2f</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -197,7 +209,7 @@ rkJggg==
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -213,6 +225,22 @@ rkJggg==
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -242,17 +270,13 @@ rkJggg==
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Home</name>
-    <number>1</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>928833cc-0be1-4741-aed7-d475c38cbe2f</guid>
     <property>
       <cache>long</cache>
     </property>
@@ -297,6 +321,10 @@ rkJggg==
     </property>
   </object>
   <object>
+    <name>Test.C-Home</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>25a720ca-f4eb-4191-ba71-7c8a6f7ced23</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -362,10 +390,6 @@ rkJggg==
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-Home</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>25a720ca-f4eb-4191-ba71-7c8a6f7ced23</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -379,17 +403,4 @@ rkJggg==
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write the CSS rules to style the link as in the following image. **No changes allowed in the HTML.**{{/info}}
-
-image:home.png
-
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', "editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=$escapetool.url('TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')")"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{velocity}}{{code}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/code}}
-
-{{html}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/html}}{{/velocity}}</content>
 </xwikidoc>

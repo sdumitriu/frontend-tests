@@ -1,99 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-Panel</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1266717254000</creationDate>
-  <date>1266717254000</date>
-  <contentUpdateDate>1266717254000</contentUpdateDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1426865968000</date>
+  <contentUpdateDate>1426865968000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: Panel styling</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Write the CSS rules that display the panel as in the following image. **No changes allowed in the HTML.**{{/info}}
+
+image:panel.png
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{code}}
+&lt;div class="panel"&gt;
+ &lt;h2 class="panelHeader"&gt;Panel Title&lt;/h2&gt;
+ &lt;div class="panelContent"&gt;
+    The panel content is displayed here.
+ &lt;/div&gt;
+&lt;/div&gt;
+{{/code}}
+
+{{html}}
+&lt;div class="panel"&gt;
+ &lt;h2 class="panelHeader"&gt;Panel Title&lt;/h2&gt;
+ &lt;div class="panelContent"&gt;
+    The panel content is displayed here.
+ &lt;/div&gt;
+&lt;/div&gt;
+{{/html}}</content>
   <attachment>
     <filename>panel.png</filename>
-    <filesize>3498</filesize>
     <author>xwiki:XWiki.Admin</author>
-    <date>1266717254000</date>
+    <date>1426865968000</date>
     <version>1.1</version>
     <comment/>
-    <content>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
-H8UuCYYmDOtyAAAAAElFTkSuQmCC
-</content>
+    <content>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</content>
+    <filesize>3498</filesize>
   </attachment>
   <object>
+    <name>Test.C-Panel</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>ea199753-858f-4e58-94f8-cba925d9c4a7</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -113,7 +75,7 @@ H8UuCYYmDOtyAAAAAElFTkSuQmCC
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -129,6 +91,22 @@ H8UuCYYmDOtyAAAAAElFTkSuQmCC
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -158,17 +136,13 @@ H8UuCYYmDOtyAAAAAElFTkSuQmCC
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Panel</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>ea199753-858f-4e58-94f8-cba925d9c4a7</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -193,6 +167,10 @@ H8UuCYYmDOtyAAAAAElFTkSuQmCC
     </property>
   </object>
   <object>
+    <name>Test.C-Panel</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>99371a27-042e-47ad-803b-3a17ed2a42d9</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -258,10 +236,6 @@ H8UuCYYmDOtyAAAAAElFTkSuQmCC
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-Panel</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>99371a27-042e-47ad-803b-3a17ed2a42d9</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -275,27 +249,4 @@ H8UuCYYmDOtyAAAAAElFTkSuQmCC
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write the CSS rules that display the panel as in the following image. **No changes allowed in the HTML.**{{/info}}
-
-image:panel.png
-
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{code}}
-&lt;div class="panel"&gt;
- &lt;h2 class="panelHeader"&gt;Panel Title&lt;/h2&gt;
- &lt;div class="panelContent"&gt;
-    The panel content is displayed here.
- &lt;/div&gt;
-&lt;/div&gt;
-{{/code}}
-
-{{html}}
-&lt;div class="panel"&gt;
- &lt;h2 class="panelHeader"&gt;Panel Title&lt;/h2&gt;
- &lt;div class="panelContent"&gt;
-    The panel content is displayed here.
- &lt;/div&gt;
-&lt;/div&gt;
-{{/html}}</content>
 </xwikidoc>

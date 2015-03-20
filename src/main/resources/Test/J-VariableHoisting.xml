@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>J-VariableHoisting</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1281573348000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1281573433000</date>
   <contentUpdateDate>1281573433000</contentUpdateDate>
   <version>1.1</version>
   <title>JS Test: Variable Hoisting</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>

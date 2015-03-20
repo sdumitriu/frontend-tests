@@ -1,28 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>J-Notifications</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1266717254000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1266717254000</date>
   <contentUpdateDate>1266717254000</contentUpdateDate>
   <version>1.1</version>
   <title>JS Test: Notifications</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Read the source code for the [[notification widget&gt;&gt;https://github.com/xwiki/xwiki-platform/blob/master/xwiki-platform-core/xwiki-platform-web/src/main/webapp/resources/uicomponents/widgets/notification.js]], explain it, then write the JS code that displays the corresponding notification when clicking each trigger. **No changes allowed in the HTML.**{{/info}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link js" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.JavaScriptExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.JavaScriptExtension_0_code'']')"&gt;Edit JS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{html}}
+&lt;span id="showWarning"&gt;Show a warning&lt;/span&gt;&lt;br/&gt;
+&lt;span id="showError"&gt;Show an error message, with a blue background&lt;/span&gt;&lt;br/&gt;
+&lt;span id="showProgress"&gt;Show a progress notification&lt;/span&gt;&lt;br/&gt;
+{{/html}}</content>
   <object>
+    <name>Test.J-Notifications</name>
+    <number>0</number>
+    <className>XWiki.JavaScriptExtension</className>
+    <guid>16bb9dd8-0379-433e-ad2e-1ec10803e38c</guid>
     <class>
       <name>XWiki.JavaScriptExtension</name>
       <customClass/>
@@ -42,7 +52,7 @@
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -87,17 +97,13 @@
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.J-Notifications</name>
-    <number>0</number>
-    <className>XWiki.JavaScriptExtension</className>
-    <guid>16bb9dd8-0379-433e-ad2e-1ec10803e38c</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -117,6 +123,10 @@
     </property>
   </object>
   <object>
+    <name>Test.J-Notifications</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>6cfaa917-3530-48e5-be56-a0149b719a35</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -182,10 +192,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.J-Notifications</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>6cfaa917-3530-48e5-be56-a0149b719a35</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -199,13 +205,4 @@
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Read the source code for the [[notification widget&gt;&gt;https://github.com/xwiki/xwiki-platform/blob/master/xwiki-platform-core/xwiki-platform-web/src/main/webapp/resources/uicomponents/widgets/notification.js]], explain it, then write the JS code that displays the corresponding notification when clicking each trigger. **No changes allowed in the HTML.**{{/info}}
-
-{{velocity}}{{html}}&lt;a class="test-edit-link js" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.JavaScriptExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.JavaScriptExtension_0_code'']')"&gt;Edit JS&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{html}}
-&lt;span id="showWarning"&gt;Show a warning&lt;/span&gt;&lt;br/&gt;
-&lt;span id="showError"&gt;Show an error message, with a blue background&lt;/span&gt;&lt;br/&gt;
-&lt;span id="showProgress"&gt;Show a progress notification&lt;/span&gt;&lt;br/&gt;
-{{/html}}</content>
 </xwikidoc>

@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>D-BogoSAT</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1311018744000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1311018998000</date>
   <contentUpdateDate>1311018998000</contentUpdateDate>
   <version>1.1</version>
   <title>Design Test: BogoSAT</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>

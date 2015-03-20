@@ -1,28 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>V-Fibo</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1266717254000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1266717254000</date>
   <contentUpdateDate>1266717254000</contentUpdateDate>
   <version>1.1</version>
   <title>Velocity Test: Fibonacci</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Write a program that computes and prints the ##N##th [[Fibonacci number&gt;&gt;http://en.wikipedia.org/wiki/Fibonacci_number]]. ##N## will be given as a parameter in the URL, and must be less than 20.{{/info}}
+
+For example:
+
+{{code}}
+N=0 =&gt; 0
+N=1 =&gt; 1
+N=2 =&gt; 1
+N=5 =&gt; 5
+N=42 =&gt; Number too big
+N=-1 =&gt; No negative number allowed
+{{/code}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{velocity}}
+#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
+{{/velocity}}</content>
   <object>
+    <name>Test.V-Fibo</name>
+    <number>0</number>
+    <className>Test.Textarea</className>
+    <guid>7d7ce2a6-26ec-48b0-8899-1673c51672e6</guid>
     <class>
       <name>Test.Textarea</name>
       <customClass/>
@@ -48,10 +67,6 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
     </class>
-    <name>Test.V-Fibo</name>
-    <number>0</number>
-    <className>Test.Textarea</className>
-    <guid>7d7ce2a6-26ec-48b0-8899-1673c51672e6</guid>
     <property>
       <code>#set($N = $mathtool.toInteger($request.N))
 ## Write code here:
@@ -59,6 +74,10 @@
     </property>
   </object>
   <object>
+    <name>Test.V-Fibo</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>859da390-7481-4ba6-b297-e8f520b98847</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -124,10 +143,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.V-Fibo</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>859da390-7481-4ba6-b297-e8f520b98847</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -141,22 +156,4 @@
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write a program that computes and prints the ##N##th [[Fibonacci number&gt;&gt;http://en.wikipedia.org/wiki/Fibonacci_number]]. ##N## will be given as a parameter in the URL, and must be less than 20.{{/info}}
-
-For example:
-
-{{code}}
-N=0 =&gt; 0
-N=1 =&gt; 1
-N=2 =&gt; 1
-N=5 =&gt; 5
-N=42 =&gt; Number too big
-N=-1 =&gt; No negative number allowed
-{{/code}}
-
-{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{velocity}}
-#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
-{{/velocity}}</content>
 </xwikidoc>

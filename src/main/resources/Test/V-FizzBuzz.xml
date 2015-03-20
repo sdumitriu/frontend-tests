@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>V-FizzBuzz</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1266717254000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1266717254000</date>
   <contentUpdateDate>1266717254000</contentUpdateDate>
   <version>1.1</version>
   <title>Velocity Test: FizzBuzz</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".{{/info}}
+
+For example:
+
+{{code}}
+1  2  Fizz  4  Buzz  Fizz  7  8  Fizz  Buzz  11  Fizz  13  14  FizzBuzz  16
+{{/code}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+
+
+{{velocity}}
+#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
+{{/velocity}}</content>
   <object>
+    <name>Test.V-FizzBuzz</name>
+    <number>0</number>
+    <className>Test.Textarea</className>
+    <guid>5f88b5b4-fd8d-4feb-bf8b-a6cbea21fb85</guid>
     <class>
       <name>Test.Textarea</name>
       <customClass/>
@@ -48,16 +63,16 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
     </class>
-    <name>Test.V-FizzBuzz</name>
-    <number>0</number>
-    <className>Test.Textarea</className>
-    <guid>5f88b5b4-fd8d-4feb-bf8b-a6cbea21fb85</guid>
     <property>
       <code>## Write code here
 </code>
     </property>
   </object>
   <object>
+    <name>Test.V-FizzBuzz</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>6bd7bebb-fb0e-402d-babf-a5149e3f3d9b</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -123,10 +138,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.V-FizzBuzz</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>6bd7bebb-fb0e-402d-babf-a5149e3f3d9b</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -140,18 +151,4 @@
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".{{/info}}
-
-For example:
-
-{{code}}
-1  2  Fizz  4  Buzz  Fizz  7  8  Fizz  Buzz  11  Fizz  13  14  FizzBuzz  16
-{{/code}}
-
-{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
-
-
-{{velocity}}
-#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
-{{/velocity}}</content>
 </xwikidoc>

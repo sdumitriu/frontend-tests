@@ -1,57 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-Triangle</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1266717254000</creationDate>
-  <date>1266717254000</date>
-  <contentUpdateDate>1266717254000</contentUpdateDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1426865968000</date>
+  <contentUpdateDate>1426865968000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: Triangle</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Write the CSS rules that create the following image. **No changes allowed in the HTML.**{{/info}}
+
+image:triangle.png
+
+{{velocity}}{{html}}&lt;a class="css test-edit-link" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+
+{{velocity}}{{code}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/code}}
+
+{{html}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/html}}{{/velocity}}</content>
   <attachment>
     <filename>triangle.png</filename>
-    <filesize>1121</filesize>
     <author>xwiki:XWiki.Admin</author>
-    <date>1266717254000</date>
+    <date>1426865968000</date>
     <version>1.1</version>
     <comment/>
-    <content>iVBORw0KGgoAAAANSUhEUgAAAIAAAABvCAIAAACrTl/LAAAACXBIWXMAABE5AAAROQEb2ZNGAAAE
-E0lEQVR4nO2bvYrqUBSFTy7YWAoDFsHaN/CxtbBJayd5AK0lhSCkTJPi3CIwiI7OnvzstRaerxoc
-Gfec5V6JfDNZjDEkcPxDD/DppADApADApADApADApADApADAaAdwPp/P5zN6ikFoB7DdbrfbLXqK
-QWTSn4Q3m00I4Xg8ogfpj3AAVVWtVqsQwuVyyfMcPU5PhCtot9vFGGOMu90OPUt/tAN4+EIR1Qqq
-63q5XLZtG0KYzWbX63WxWKCH6oPqBuz3++70Qwht2+73e+w8vVEN4KF2dFtIsoKapvn6+mqa5vuR
-+Xx+u93m8zlwqn5IbkBRFPenH0JomqYoCtQ8Q5AM4MfCEW0hvQpq23a5XNZ1/fD4YrG4Xq+z2Qwy
-VW/0NuBwODyffgihruvD4eA/z0D0AnhTNYotJFZBMcbValVV1Y/fzfP8crlkWeY81RDENqAsy1en
-H0KoqqosS895hiMWwK8lI9dCYgH8ql/k/IxSABYBKScplQIwvru1lkApAGO/a10GZG5DOwFpmTbL
-MiFJKbMBnYC0PFNLUioFMNGTsWhU0L2AtCAkKTU24F5AWhCSlBoB9KgUlRYSqKBnAWlBRVIKbMCz
-gLSgIikFAuhdJhItxF5BrwSkBQlJyb4BrwSkBQlJyR7AwBrhbyHqCnovIC3wS0rqDXgvIC3wS0rq
-AEYpEPIWog5gFLVC7md4AxhLLpJLSt4ARnznMi8BbwAjdjfzZYD0NtQuIC0wS0rSDbALSAvMkpI3
-APIfOBaMFfRXAWmBVlIybsBfBaQFWknJGMBEdcHZQnQV1E9AWuCUlHQb0E9AWuCUlHQBTFoUhC3E
-VUFDBKQFQknJtQFDBKQFQknJFYBDRbC1EFEFDReQFtgkJdEGDBeQFtgkJVEAbuVA1UJEAbhpEyo/
-wxKApzikkpQsATi/K3mWgCUA517muQxQ3IaOKyAt8EhKig0YV0Ba4JGULAF8yIs+g6+gKQSkBRJJ
-id+AKQSkBRJJiQ8AWAUMLQSuoOkEpAUGSQnegOkEpAUGSQkOAF4C8AGQFTS1gLQAl5TIDZhaQFqA
-S0pkAPD178COAasgHwFpASspYRvgIyAtYCUlLACS/ulADhNBrNdr2O/8xHq9Rp0DJoDT6YQ+80dO
-pxPkKDAVxGMEv0GNhAmA6gLQgRoJcBvqLyAtoCQlYAP8BaSFCJKUmAD8X9QCZDDvCkIJSAsQSem9
-ASgBaQEiKb0DoO2fDv/xXCsIKyAt+EtK1w3ACkgL/pLSNQDy/ulwHtKvghgEpAVnSem3AQwC0oKz
-pPQLQKJ/OjxHdaqgSCMgLXhKSqcN4BGQFjwlpVMAQv3T4Tewj/ehEpAW3CQl/v8DPhz8n6d/OCkA
-MCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=
-</content>
+    <content>iVBORw0KGgoAAAANSUhEUgAAAIAAAABvCAIAAACrTl/LAAAACXBIWXMAABE5AAAROQEb2ZNGAAAEE0lEQVR4nO2bvYrqUBSFTy7YWAoDFsHaN/CxtbBJayd5AK0lhSCkTJPi3CIwiI7OnvzstRaerxocGfec5V6JfDNZjDEkcPxDD/DppADApADApADApADApADApADAaAdwPp/P5zN6ikFoB7DdbrfbLXqKQWTSn4Q3m00I4Xg8ogfpj3AAVVWtVqsQwuVyyfMcPU5PhCtot9vFGGOMu90OPUt/tAN4+EIR1Qqq63q5XLZtG0KYzWbX63WxWKCH6oPqBuz3++70Qwht2+73e+w8vVEN4KF2dFtIsoKapvn6+mqa5vuR+Xx+u93m8zlwqn5IbkBRFPenH0JomqYoCtQ8Q5AM4MfCEW0hvQpq23a5XNZ1/fD4YrG4Xq+z2QwyVW/0NuBwODyffgihruvD4eA/z0D0AnhTNYotJFZBMcbValVV1Y/fzfP8crlkWeY81RDENqAsy1enH0KoqqosS895hiMWwK8lI9dCYgH8ql/k/IxSABYBKScplQIwvru1lkApAGO/a10GZG5DOwFpmTbLMiFJKbMBnYC0PFNLUioFMNGTsWhU0L2AtCAkKTU24F5AWhCSlBoB9KgUlRYSqKBnAWlBRVIKbMCzgLSgIikFAuhdJhItxF5BrwSkBQlJyb4BrwSkBQlJyR7AwBrhbyHqCnovIC3wS0rqDXgvIC3wS0rqAEYpEPIWog5gFLVC7md4AxhLLpJLSt4ARnznMi8BbwAjdjfzZYD0NtQuIC0wS0rSDbALSAvMkpI3APIfOBaMFfRXAWmBVlIybsBfBaQFWknJGMBEdcHZQnQV1E9AWuCUlHQb0E9AWuCUlHQBTFoUhC3EVUFDBKQFQknJtQFDBKQFQknJFYBDRbC1EFEFDReQFtgkJdEGDBeQFtgkJVEAbuVA1UJEAbhpEyo/wxKApzikkpQsATi/K3mWgCUA517muQxQ3IaOKyAt8EhKig0YV0Ba4JGULAF8yIs+g6+gKQSkBRJJid+AKQSkBRJJiQ8AWAUMLQSuoOkEpAUGSQnegOkEpAUGSQkOAF4C8AGQFTS1gLQAl5TIDZhaQFqAS0pkAPD178COAasgHwFpASspYRvgIyAtYCUlLACS/ulADhNBrNdr2O/8xHq9Rp0DJoDT6YQ+80dOpxPkKDAVxGMEv0GNhAmA6gLQgRoJcBvqLyAtoCQlYAP8BaSFCJKUmAD8X9QCZDDvCkIJSAsQSem9ASgBaQEiKb0DoO2fDv/xXCsIKyAt+EtK1w3ACkgL/pLSNQDy/ulwHtKvghgEpAVnSem3AQwC0oKzpPQLQKJ/OjxHdaqgSCMgLXhKSqcN4BGQFjwlpVMAQv3T4Tewj/ehEpAW3CQl/v8DPhz8n6d/OCkAMCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=</content>
+    <filesize>1121</filesize>
   </attachment>
   <object>
+    <name>Test.C-Triangle</name>
+    <number>0</number>
+    <className>Test.Textarea</className>
+    <guid>5a7f9a44-ef98-4746-957d-35cea840c6f7</guid>
     <class>
       <name>Test.Textarea</name>
       <customClass/>
@@ -77,15 +72,15 @@ MCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
     </class>
-    <name>Test.C-Triangle</name>
-    <number>0</number>
-    <className>Test.Textarea</className>
-    <guid>5a7f9a44-ef98-4746-957d-35cea840c6f7</guid>
     <property>
       <code>&lt;div id="a"&gt; &lt;/div&gt;</code>
     </property>
   </object>
   <object>
+    <name>Test.C-Triangle</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>3462ce3a-c790-41a1-9d96-e103e049e8f8</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -105,7 +100,7 @@ MCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -121,6 +116,22 @@ MCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -150,17 +161,13 @@ MCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Triangle</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>3462ce3a-c790-41a1-9d96-e103e049e8f8</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -180,6 +187,10 @@ MCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=
     </property>
   </object>
   <object>
+    <name>Test.C-Triangle</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>df5571d5-a05f-4fd3-bb7e-45b5ecbe8589</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -245,10 +256,6 @@ MCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-Triangle</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>df5571d5-a05f-4fd3-bb7e-45b5ecbe8589</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -262,18 +269,4 @@ MCkAMCkAMCkAMCkAMCkAMP8BeIGYgBhL7RgAAAAASUVORK5CYII=
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write the CSS rules that create the following image. **No changes allowed in the HTML.**{{/info}}
-
-image:triangle.png
-
-{{velocity}}{{html}}&lt;a class="css test-edit-link" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
-
-
-{{velocity}}{{code}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/code}}
-
-{{html}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/html}}{{/velocity}}</content>
 </xwikidoc>

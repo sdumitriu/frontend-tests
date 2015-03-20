@@ -1,28 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>V-GCD</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1281602929000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1281603985000</date>
   <contentUpdateDate>1281603985000</contentUpdateDate>
   <version>1.1</version>
   <title>Velocity Test: Greatest Common Divisor</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Write a program that computes and prints the **Greatest Common Divisor** of two numbers, ##a## and ##b##, using Euclid's Algorithm. ##a## and ##b## will be given as parameter in the URL.{{/info}}
+
+For example:
+
+{{code}}
+a=0, b=0 =&gt; 0
+a=7, b=0 =&gt; 7
+a=7, b=5 =&gt; 1
+a=35, b=42 =&gt; 7
+a=42, b=35 =&gt; 7
+a=-42, b=35 =&gt; No negative number allowed
+{{/code}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{velocity}}
+#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
+{{/velocity}}</content>
   <object>
+    <name>Test.V-GCD</name>
+    <number>0</number>
+    <className>Test.Textarea</className>
+    <guid>5bb042ac-591a-42ab-be22-47da1311dea6</guid>
     <class>
       <name>Test.Textarea</name>
       <customClass/>
@@ -48,10 +67,6 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
     </class>
-    <name>Test.V-GCD</name>
-    <number>0</number>
-    <className>Test.Textarea</className>
-    <guid>5bb042ac-591a-42ab-be22-47da1311dea6</guid>
     <property>
       <code>#set($a = $mathtool.toInteger($request.a))
 #set($b = $mathtool.toInteger($request.b))
@@ -61,6 +76,10 @@
     </property>
   </object>
   <object>
+    <name>Test.V-GCD</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>2c414f9a-dc68-49ef-8c91-76d004a2294b</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -126,10 +145,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.V-GCD</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>2c414f9a-dc68-49ef-8c91-76d004a2294b</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -143,22 +158,4 @@
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write a program that computes and prints the **Greatest Common Divisor** of two numbers, ##a## and ##b##, using Euclid's Algorithm. ##a## and ##b## will be given as parameter in the URL.{{/info}}
-
-For example:
-
-{{code}}
-a=0, b=0 =&gt; 0
-a=7, b=0 =&gt; 7
-a=7, b=5 =&gt; 1
-a=35, b=42 =&gt; 7
-a=42, b=35 =&gt; 7
-a=-42, b=35 =&gt; No negative number allowed
-{{/code}}
-
-{{velocity}}{{html}}&lt;a class="test-edit-link velo" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;number=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit code&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{velocity}}
-#evaluate($doc.getObject('Test.Textarea').getProperty('code').value)
-{{/velocity}}</content>
 </xwikidoc>

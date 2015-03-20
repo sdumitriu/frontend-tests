@@ -1,79 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-Play</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1310435921000</creationDate>
-  <date>1310440530000</date>
-  <contentUpdateDate>1310440530000</contentUpdateDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1426865968000</date>
+  <contentUpdateDate>1426865968000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: Play</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Write the CSS rules to convert the following list of actions into a proper player menu. **No changes allowed in the HTML.** The solution is only required to work in Mozilla Firefox 3.5+{{/info}}
+
+image:play.png
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', "editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=$escapetool.url('TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')")"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{velocity}}{{code}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/code}}
+
+{{html}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/html}}{{/velocity}}</content>
   <attachment>
     <filename>play.png</filename>
-    <filesize>2393</filesize>
     <author>xwiki:XWiki.Admin</author>
-    <date>1310440440000</date>
+    <date>1426865968000</date>
     <version>1.1</version>
     <comment/>
-    <content>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
-</content>
+    <content>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</content>
+    <filesize>2393</filesize>
   </attachment>
   <object>
+    <name>Test.C-Play</name>
+    <number>0</number>
+    <className>Test.Textarea</className>
+    <guid>34c00bb8-3cda-4b52-89b4-7998b9a42b60</guid>
     <class>
       <name>Test.Textarea</name>
       <customClass/>
@@ -99,10 +71,6 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
     </class>
-    <name>Test.C-Play</name>
-    <number>0</number>
-    <className>Test.Textarea</className>
-    <guid>34c00bb8-3cda-4b52-89b4-7998b9a42b60</guid>
     <property>
       <code>&lt;ul class="actions"&gt;
   &lt;li class="rewind"&gt;&lt;a href="#rewind"&gt;Rewind&lt;/a&gt;&lt;/li&gt;
@@ -114,6 +82,10 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
     </property>
   </object>
   <object>
+    <name>Test.C-Play</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>9659c68f-1879-42b4-a30d-f49f95e968a5</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -133,7 +105,7 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -149,6 +121,22 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -178,17 +166,13 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Play</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>9659c68f-1879-42b4-a30d-f49f95e968a5</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -225,6 +209,10 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
     </property>
   </object>
   <object>
+    <name>Test.C-Play</name>
+    <number>1</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>4b5ce86b-ec93-4b85-bdb5-b9ef646ee200</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -244,7 +232,7 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -260,6 +248,22 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -289,17 +293,13 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Play</name>
-    <number>1</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>4b5ce86b-ec93-4b85-bdb5-b9ef646ee200</guid>
     <property>
       <cache>long</cache>
     </property>
@@ -389,6 +389,10 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
     </property>
   </object>
   <object>
+    <name>Test.C-Play</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>b6df6d7c-a66a-4de1-97bd-a4fa4145184c</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -454,10 +458,6 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-Play</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>b6df6d7c-a66a-4de1-97bd-a4fa4145184c</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -471,17 +471,4 @@ hN1uz8nJ2awkFdKIUCg0MTEhYkvYBARB+P3+jIwMDMOMRqNOp5P5nodCmhOLxSKRyMLCAkmSic2n
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write the CSS rules to convert the following list of actions into a proper player menu. **No changes allowed in the HTML.** The solution is only required to work in Mozilla Firefox 3.5+{{/info}}
-
-image:play.png
-
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', "editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=$escapetool.url('TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')")"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{velocity}}{{code}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/code}}
-
-{{html}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/html}}{{/velocity}}</content>
 </xwikidoc>

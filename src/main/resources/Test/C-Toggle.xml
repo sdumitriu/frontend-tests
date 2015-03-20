@@ -1,28 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-Toggle</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1266717254000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1266717254000</date>
   <contentUpdateDate>1266717254000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: Toggle</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Set the href attributes of the show/hide links as necessary and write the CSS rules that "implement" the actual show/hide when clicking on the respective link. **No other changes allowed in the HTML. Do not use Javascript code in the href attribute.** The solution is only required to work in Mozilla Firefox 3.5+{{/info}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt; | &lt;a class="test-edit-link html" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit HTML&lt;/a&gt;{{/html}}{{/velocity}}
+
+
+{{velocity}}{{code}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/code}}
+
+{{html}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/html}}{{/velocity}}</content>
   <object>
+    <name>Test.C-Toggle</name>
+    <number>0</number>
+    <className>Test.Textarea</className>
+    <guid>c0d5ad2b-15fd-4cec-a443-b000c1816d93</guid>
     <class>
       <name>Test.Textarea</name>
       <customClass/>
@@ -48,10 +61,6 @@
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
     </class>
-    <name>Test.C-Toggle</name>
-    <number>0</number>
-    <className>Test.Textarea</className>
-    <guid>c0d5ad2b-15fd-4cec-a443-b000c1816d93</guid>
     <property>
       <code>&lt;div id="trigger"&gt;
  &lt;a href="#" id="showTrigger"&gt;Show panel&lt;/a&gt;
@@ -63,6 +72,10 @@
     </property>
   </object>
   <object>
+    <name>Test.C-Toggle</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>8ed0a1e9-5caa-40e5-8729-dbc6054439bc</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -82,7 +95,7 @@
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -98,6 +111,22 @@
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -127,17 +156,13 @@
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Toggle</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>8ed0a1e9-5caa-40e5-8729-dbc6054439bc</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -169,6 +194,10 @@
     </property>
   </object>
   <object>
+    <name>Test.C-Toggle</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>4c6def90-e2dd-4943-a3f5-88aaaec0ac90</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -234,10 +263,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-Toggle</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>4c6def90-e2dd-4943-a3f5-88aaaec0ac90</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -251,16 +276,4 @@
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Set the href attributes of the show/hide links as necessary and write the CSS rules that "implement" the actual show/hide when clicking on the respective link. **No other changes allowed in the HTML. Do not use Javascript code in the href attribute.** The solution is only required to work in Mozilla Firefox 3.5+{{/info}}
-
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt; | &lt;a class="test-edit-link html" href="$doc.getURL('edit', 'editor=object&amp;classname=Test.Textarea&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''Test.Textarea_0_code'']')"&gt;Edit HTML&lt;/a&gt;{{/html}}{{/velocity}}
-
-
-{{velocity}}{{code}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/code}}
-
-{{html}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/html}}{{/velocity}}</content>
 </xwikidoc>

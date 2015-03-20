@@ -1,28 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-Links</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1266717254000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1266717254000</date>
   <contentUpdateDate>1266717254000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: Links</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Without altering the HTML**, display an icon after all the **external** links in this document.{{/info}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{code}}
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="/xwiki/bin/view/Test/C11"&gt;Link to the previous test&lt;/a&gt; no icon here&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.w3.org"&gt;External link to W3C&lt;/a&gt; an icon should appear here&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/xwiki/bin/view/Main/"&gt;Link to the main page of this wiki&lt;/a&gt; no icon&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.google.com"&gt;External link to Google&lt;/a&gt; icon&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.xwiki.org"&gt;External link to XWiki.org&lt;/a&gt; icon here, too&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/xwiki/bin/view/XWiki/XWikiSyntax"&gt;Link to the XWiki syntax&lt;/a&gt; no icon&lt;/li&gt;
+&lt;/ul&gt;
+{{/code}}
+
+{{velocity}}
+{{html}}
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="$xwiki.getURL('Test.C11')"&gt;Link to the previous test&lt;/a&gt; no icon here&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.w3.org"&gt;External link to W3C&lt;/a&gt; an icon should appear here&lt;/li&gt;
+  &lt;li&gt;&lt;a href="$xwiki.getURL('Main.WebHome')"&gt;Link to the main page of this wiki&lt;/a&gt; no icon&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.google.com"&gt;External link to Google&lt;/a&gt; icon&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.xwiki.org"&gt;External link to XWiki.org&lt;/a&gt; icon here, too&lt;/li&gt;
+  &lt;li&gt;&lt;a href="$xwiki.getURL('XWiki.XWikiSyntax')"&gt;Link to the XWiki syntax&lt;/a&gt; no icon&lt;/li&gt;
+&lt;/ul&gt;
+{{/html}}
+{{/velocity}}</content>
   <object>
+    <name>Test.C-Links</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>13bfad66-b0a9-4a91-b57a-a8bbd3a0fc05</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -42,7 +70,7 @@
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -58,6 +86,22 @@
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -87,17 +131,13 @@
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Links</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>13bfad66-b0a9-4a91-b57a-a8bbd3a0fc05</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -119,6 +159,10 @@
     </property>
   </object>
   <object>
+    <name>Test.C-Links</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>577dd7b4-b4bb-4f43-807d-bdd05bc362a1</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -184,10 +228,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-Links</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>577dd7b4-b4bb-4f43-807d-bdd05bc362a1</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -201,31 +241,4 @@
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Without altering the HTML**, display an icon after all the **external** links in this document.{{/info}}
-
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{code}}
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="/xwiki/bin/view/Test/C11"&gt;Link to the previous test&lt;/a&gt; no icon here&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.w3.org"&gt;External link to W3C&lt;/a&gt; an icon should appear here&lt;/li&gt;
-  &lt;li&gt;&lt;a href="/xwiki/bin/view/Main/"&gt;Link to the main page of this wiki&lt;/a&gt; no icon&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.google.com"&gt;External link to Google&lt;/a&gt; icon&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.xwiki.org"&gt;External link to XWiki.org&lt;/a&gt; icon here, too&lt;/li&gt;
-  &lt;li&gt;&lt;a href="/xwiki/bin/view/XWiki/XWikiSyntax"&gt;Link to the XWiki syntax&lt;/a&gt; no icon&lt;/li&gt;
-&lt;/ul&gt;
-{{/code}}
-
-{{velocity}}
-{{html}}
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="$xwiki.getURL('Test.C11')"&gt;Link to the previous test&lt;/a&gt; no icon here&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.w3.org"&gt;External link to W3C&lt;/a&gt; an icon should appear here&lt;/li&gt;
-  &lt;li&gt;&lt;a href="$xwiki.getURL('Main.WebHome')"&gt;Link to the main page of this wiki&lt;/a&gt; no icon&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.google.com"&gt;External link to Google&lt;/a&gt; icon&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.xwiki.org"&gt;External link to XWiki.org&lt;/a&gt; icon here, too&lt;/li&gt;
-  &lt;li&gt;&lt;a href="$xwiki.getURL('XWiki.XWikiSyntax')"&gt;Link to the XWiki syntax&lt;/a&gt; no icon&lt;/li&gt;
-&lt;/ul&gt;
-{{/html}}
-{{/velocity}}</content>
 </xwikidoc>

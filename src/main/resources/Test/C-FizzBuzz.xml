@@ -1,28 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-FizzBuzz</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1266717254000</creationDate>
-  <date>1266717254000</date>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1426869352000</date>
   <contentUpdateDate>1266717254000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: FizzBuzz</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Without altering the HTML**, make the background color:
+* yellow for all the cells in rows divisible by 3
+* blue for all the cells in rows divisible by 5
+* green for all the cells in rows divisible by both 3 and 5, **and** mark the name with an asterisk. Example of expected result:
+
+##|...##
+##| 44. | Name 44  | Value 44 |##
+##| 45. | Name 45* | Value 45 |##
+##| 46. | Name 46  | Value 46 |##
+##|...##
+
+{{/info}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{code}}
+&lt;table id="allData"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Number&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Value&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;1.&lt;/th&gt;
+      &lt;td&gt;Name 1&lt;/td&gt;
+      &lt;td&gt;Value 1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;2.&lt;/th&gt;
+      &lt;td&gt;Name 2&lt;/td&gt;
+      &lt;td&gt;Value 2&lt;/td&gt;
+    &lt;/tr&gt;
+    ...
+    &lt;tr&gt;
+      &lt;th&gt;100.&lt;/th&gt;
+      &lt;td&gt;Name 100&lt;/td&gt;
+      &lt;td&gt;Value 100&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+{{/code}}
+
+{{velocity}}
+{{html}}
+&lt;table id="allData"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Number&lt;/th&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Value&lt;/th&gt;
+    &lt;/tr&gt;
+#foreach($i in [1..100])
+    &lt;tr&gt;
+      &lt;th&gt;${i}.&lt;/th&gt;
+      &lt;td&gt;Name ${i}&lt;/td&gt;
+      &lt;td&gt;Value ${i}&lt;/td&gt;
+    &lt;/tr&gt;
+#end
+  &lt;/tbody&gt;
+&lt;/table&gt;
+{{/html}}
+{{/velocity}}</content>
   <object>
+    <name>Test.C-FizzBuzz</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>05f3661f-c430-4a16-a5fa-775fce482a31</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -42,7 +106,7 @@
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -58,6 +122,22 @@
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -87,17 +167,13 @@
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-FizzBuzz</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>05f3661f-c430-4a16-a5fa-775fce482a31</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -115,6 +191,10 @@
     </property>
   </object>
   <object>
+    <name>Test.C-FizzBuzz</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>fc75f971-c1b0-4665-b76f-fbbb4196d2c3</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -180,10 +260,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-FizzBuzz</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>fc75f971-c1b0-4665-b76f-fbbb4196d2c3</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -197,67 +273,4 @@
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Without altering the HTML**, make the background color:
-* yellow for all the cells in rows divisible by 3
-* blue for all the cells in rows divisible by 5
-* green for all the cells in rows divisible by both 3 and 5, **and** mark the name with an asterisk. Example of expected result:
-
-##|...##
-##| 44. | Name 44  | Value 44 |##
-##| 45. | Name 45* | Value 45 |##
-##| 46. | Name 46  | Value 46 |##
-##|...##
-
-{{/info}}
-
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{code}}
-&lt;table id="allData"&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Number&lt;/th&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Value&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;1.&lt;/th&gt;
-      &lt;td&gt;Name 1&lt;/td&gt;
-      &lt;td&gt;Value 1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;2.&lt;/th&gt;
-      &lt;td&gt;Name 2&lt;/td&gt;
-      &lt;td&gt;Value 2&lt;/td&gt;
-    &lt;/tr&gt;
-    ...
-    &lt;tr&gt;
-      &lt;th&gt;100.&lt;/th&gt;
-      &lt;td&gt;Name 100&lt;/td&gt;
-      &lt;td&gt;Value 100&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-{{/code}}
-
-{{velocity}}
-{{html}}
-&lt;table id="allData"&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Number&lt;/th&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Value&lt;/th&gt;
-    &lt;/tr&gt;
-#foreach($i in [1..100])
-    &lt;tr&gt;
-      &lt;th&gt;${i}.&lt;/th&gt;
-      &lt;td&gt;Name ${i}&lt;/td&gt;
-      &lt;td&gt;Value ${i}&lt;/td&gt;
-    &lt;/tr&gt;
-#end
-  &lt;/tbody&gt;
-&lt;/table&gt;
-{{/html}}
-{{/velocity}}</content>
 </xwikidoc>

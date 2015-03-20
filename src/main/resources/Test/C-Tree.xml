@@ -1,56 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-Tree</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1323878676000</creationDate>
-  <date>1323880093000</date>
-  <contentUpdateDate>1323880093000</contentUpdateDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1426865968000</date>
+  <contentUpdateDate>1426865968000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: Tree</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** Write the CSS rules that create the following image. **No changes allowed in the HTML.**{{/info}}
+
+image:tree.png
+
+{{velocity}}{{html}}&lt;a class="css test-edit-link" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{velocity}}{{code}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/code}}
+
+{{html}}
+$doc.getObject('Test.Textarea').getProperty('code').value
+{{/html}}{{/velocity}}</content>
   <attachment>
     <filename>tree.png</filename>
-    <filesize>1046</filesize>
     <author>xwiki:XWiki.Admin</author>
-    <date>1323880086000</date>
+    <date>1426865968000</date>
     <version>1.1</version>
     <comment/>
-    <content>iVBORw0KGgoAAAANSUhEUgAAAIUAAABwCAMAAAAHW0OkAAAB0VBMVEX///8AZgAAdwAAgAB3AACb
-q5ucq5zU19Qtci0scizT1tNlimVkimQDdwPp6uns7exnkWff4d+XrJd7m3vS1tL09PS8xbxLi0uC
-oYK9xr3w8PC4wrhHiUd+n365w7n7+/sQgBAZgRkagRqLpYv8/PzFzMVTjVNUjlTGzMaOp44NgA0e
-gh6PqI/Jz8lYj1hIikjK0Mrz8/MhgiEigiIRgBGDoYNckFxdkF3O085Mi0wlgiX39/eGo4YdgR0W
-gRaHo4f4+PjBycFZj1lQjFCSqpIQeBCKpYoReRF/nX+zvbNFhEVGhEa0vrQNdw0OeA6wu7BCg0JD
-g0OxvLHl5uV3mXcJdwkKeAp4mXjm5+asuaw/gj9Ag0Ctua3i4+J0l3QGdwYHdwcUgRTj5OOptqk7
-gTs8gjyqt6pPjE9+nH7CycJylnKmtKY4gDg5gDmntafb3dttlG1ulG7c3tyjs6M0fzQ2fzaks6TY
-29hqkmprk2vZ3NmfsJ8xfzEyfjKgsKCTqpPN0s3V2NWcrpwufi4vfi+dr50mgyZ1mHVgkmBhkmGb
-r5sqgyorgyucr5xxlnEAmQDU2NScs5wtlS1lnWUMgAxknWTv8O99nn0slCybs5vT19NzUC3vAAAC
-AElEQVR4XuzQxw2AQAwAQfeffIlYLRI8tgP24ylh4iellHJvs4XtOjNHtyPyNZsc8RndjqBDjKDD
-jaBDjaDDiBA7iPA6iBA7iPA6iBA7iPA6iBA7iPA6iBA7iPA6iBA7iHA7sB/roXU+bhCGgiCAWpoO
-LJucc845J9EHJ0QVcELEnikB/935r4KHv2rJmGNTPIFA2il7h24kg4AGQ99SIhSGgWnUxmG+OMHI
-ar2hJ7ZnGNtfuIf0MQuBXL5ATBRLECpXaInqEmL1BufQbEFl1yEkDj0o9a/aw20EgvFElXBnoLi7
-8oP3AM3TEyZebxB9vo7aj9a5yEEgCKIASv6G1VjmTAR3d4KFoO6SYGHHmblCd1fVO8FzRiFoC0ec
-AKdoDEbiCb6D7SdhKOXbTIl0BgTZHMchXyiCpFSukBPVGsjqDdqh2WqDQefbJSR6fTAZDE0P3s8C
-G2vsGSUmU7CazfUPiyXYrdaaic0WAnZ7ncPhCCGns3LicoWY213tEHQhyn0oJJ4vCHt//sTQuQ0A
-IAwAsaTgZ/95Ka9GIJ1HcFwqIz/oNR7MnZ+sFhAi6FAj6FAj6HAj6FAj6HAj6FAj6HAj6FAj6HAj
-6FAj6HAj6FAj6HAj6FAj6DjtzjENAAAIA7Ad+NfMhwKyq1XQfJiTJgsLCwsLCwsLCwsLCwsLC2AB
-KoGw/+8UMFYAAAAASUVORK5CYII=
-</content>
+    <content>iVBORw0KGgoAAAANSUhEUgAAAIUAAABwCAMAAAAHW0OkAAAB0VBMVEX///8AZgAAdwAAgAB3AACbq5ucq5zU19Qtci0scizT1tNlimVkimQDdwPp6uns7exnkWff4d+XrJd7m3vS1tL09PS8xbxLi0uCoYK9xr3w8PC4wrhHiUd+n365w7n7+/sQgBAZgRkagRqLpYv8/PzFzMVTjVNUjlTGzMaOp44NgA0egh6PqI/Jz8lYj1hIikjK0Mrz8/MhgiEigiIRgBGDoYNckFxdkF3O085Mi0wlgiX39/eGo4YdgR0WgRaHo4f4+PjBycFZj1lQjFCSqpIQeBCKpYoReRF/nX+zvbNFhEVGhEa0vrQNdw0OeA6wu7BCg0JDg0OxvLHl5uV3mXcJdwkKeAp4mXjm5+asuaw/gj9Ag0Ctua3i4+J0l3QGdwYHdwcUgRTj5OOptqk7gTs8gjyqt6pPjE9+nH7CycJylnKmtKY4gDg5gDmntafb3dttlG1ulG7c3tyjs6M0fzQ2fzaks6TY29hqkmprk2vZ3NmfsJ8xfzEyfjKgsKCTqpPN0s3V2NWcrpwufi4vfi+dr50mgyZ1mHVgkmBhkmGbr5sqgyorgyucr5xxlnEAmQDU2NScs5wtlS1lnWUMgAxknWTv8O99nn0slCybs5vT19NzUC3vAAACAElEQVR4XuzQxw2AQAwAQfeffIlYLRI8tgP24ylh4iellHJvs4XtOjNHtyPyNZsc8RndjqBDjKDDjaBDjaDDiBA7iPA6iBA7iPA6iBA7iPA6iBA7iPA6iBA7iPA6iBA7iHA7sB/roXU+bhCGgiCAWpoOLJucc845J9EHJ0QVcELEnikB/935r4KHv2rJmGNTPIFA2il7h24kg4AGQ99SIhSGgWnUxmG+OMHIar2hJ7ZnGNtfuIf0MQuBXL5ATBRLECpXaInqEmL1BufQbEFl1yEkDj0o9a/aw20EgvFElXBnoLi78oP3AM3TEyZebxB9vo7aj9a5yEEgCKIASv6G1VjmTAR3d4KFoO6SYGHHmblCd1fVO8FzRiFoC0ecAKdoDEbiCb6D7SdhKOXbTIl0BgTZHMchXyiCpFSukBPVGsjqDdqh2WqDQefbJSR6fTAZDE0P3s8CG2vsGSUmU7CazfUPiyXYrdaaic0WAnZ7ncPhCCGns3LicoWY213tEHQhyn0oJJ4vCHt//sTQuQ0AIAwAsaTgZ/95Ka9GIJ1HcFwqIz/oNR7MnZ+sFhAi6FAj6FAj6HAj6FAj6HAj6FAj6HAj6FAj6HAj6FAj6HAj6FAj6HAj6FAj6DjtzjENAAAIA7Ad+NfMhwKyq1XQfJiTJgsLCwsLCwsLCwsLCwsLC2ABKoGw/+8UMFYAAAAASUVORK5CYII=</content>
+    <filesize>1046</filesize>
   </attachment>
   <object>
+    <name>Test.C-Tree</name>
+    <number>0</number>
+    <className>Test.Textarea</className>
+    <guid>410aa518-941c-422e-adf2-adb4645f1d3b</guid>
     <class>
       <name>Test.Textarea</name>
       <customClass/>
@@ -76,10 +71,6 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
     </class>
-    <name>Test.C-Tree</name>
-    <number>0</number>
-    <className>Test.Textarea</className>
-    <guid>410aa518-941c-422e-adf2-adb4645f1d3b</guid>
     <property>
       <code>&lt;div id="tree"&gt;
   &lt;div id="a"&gt; &lt;/div&gt;
@@ -89,6 +80,10 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
     </property>
   </object>
   <object>
+    <name>Test.C-Tree</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>a7307cc0-066d-4a20-aef9-768190f47616</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -108,7 +103,7 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -124,6 +119,22 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -153,17 +164,13 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Tree</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>a7307cc0-066d-4a20-aef9-768190f47616</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -190,6 +197,10 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
     </property>
   </object>
   <object>
+    <name>Test.C-Tree</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>b2d3204e-c891-4bc6-b250-f3633b84430f</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -255,10 +266,6 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-Tree</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>b2d3204e-c891-4bc6-b250-f3633b84430f</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -272,17 +279,4 @@ KoGw/+8UMFYAAAAASUVORK5CYII=
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** Write the CSS rules that create the following image. **No changes allowed in the HTML.**{{/info}}
-
-image:tree.png
-
-{{velocity}}{{html}}&lt;a class="css test-edit-link" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=''XWiki.StyleSheetExtension_0_code'']')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{velocity}}{{code}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/code}}
-
-{{html}}
-$doc.getObject('Test.Textarea').getProperty('code').value
-{{/html}}{{/velocity}}</content>
 </xwikidoc>

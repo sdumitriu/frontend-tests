@@ -1,28 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xwikidoc>
+<xwikidoc version="1.1">
   <web>Test</web>
   <name>C-Broken</name>
   <language/>
   <defaultLanguage/>
   <translation>0</translation>
-  <parent>Test.WebHome</parent>
   <creator>xwiki:XWiki.Admin</creator>
-  <author>xwiki:XWiki.Admin</author>
-  <customClass/>
-  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <creationDate>1319178505000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
   <date>1319178952000</date>
   <contentUpdateDate>1319178952000</contentUpdateDate>
   <version>1.1</version>
   <title>CSS Test: Broken headers</title>
-  <defaultTemplate/>
-  <validationScript/>
   <comment/>
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.0</syntaxId>
   <hidden>false</hidden>
+  <content>{{info}}**Task:** A platinum support client is complaining that the following page is broken, and you must fix it as soon as possible. **No changes allowed in the HTML.**{{/info}}
+
+{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
+
+{{code}}
+&lt;div class="panel"&gt;
+ &lt;h2 class="panelHeader"&gt;Installation de XWiki Enterprise Manager&lt;/h2&gt;
+ &lt;div class="panelContent"&gt;
+    L'installation de XWiki Enterprise Manager a échoué !
+ &lt;/div&gt;
+&lt;/div&gt;
+{{/code}}
+
+{{html}}
+&lt;div class="panel"&gt;
+ &lt;h2 class="panelHeader"&gt;Installation de XWiki Enterprise Manager&lt;/h2&gt;
+ &lt;div class="panelContent"&gt;
+    L''installation de XWiki Enterprise Manager a échoué !
+ &lt;/div&gt;
+&lt;/div&gt;
+{{/html}}</content>
   <object>
+    <name>Test.C-Broken</name>
+    <number>0</number>
+    <className>XWiki.StyleSheetExtension</className>
+    <guid>8bb44612-2253-47b4-8856-cf05aa00d2bc</guid>
     <class>
       <name>XWiki.StyleSheetExtension</name>
       <customClass/>
@@ -42,7 +64,7 @@
         <prettyName>Caching policy</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
         <values>long|short|default|forbid</values>
@@ -58,6 +80,22 @@
         <unmodifiable>0</unmodifiable>
         <classType>com.xpn.xwiki.objects.classes.TextAreaClass</classType>
       </code>
+      <contentType>
+        <cache>0</cache>
+        <disabled>0</disabled>
+        <displayType>select</displayType>
+        <multiSelect>0</multiSelect>
+        <name>contentType</name>
+        <number>6</number>
+        <prettyName>Content Type</prettyName>
+        <relationalStorage>0</relationalStorage>
+        <separator> </separator>
+        <separators>|, </separators>
+        <size>1</size>
+        <unmodifiable>0</unmodifiable>
+        <values>CSS|LESS</values>
+        <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
+      </contentType>
       <name>
         <disabled>0</disabled>
         <name>name</name>
@@ -87,17 +125,13 @@
         <prettyName>Use this extension</prettyName>
         <relationalStorage>0</relationalStorage>
         <separator> </separator>
-        <separators> ,|</separators>
+        <separators>|, </separators>
         <size>1</size>
         <unmodifiable>0</unmodifiable>
-        <values>currentPage=Always on this page|onDemand=On demand|always=Always on this wiki</values>
+        <values>currentPage|onDemand|always</values>
         <classType>com.xpn.xwiki.objects.classes.StaticListClass</classType>
       </use>
     </class>
-    <name>Test.C-Broken</name>
-    <number>0</number>
-    <className>XWiki.StyleSheetExtension</className>
-    <guid>8bb44612-2253-47b4-8856-cf05aa00d2bc</guid>
     <property>
       <cache>forbid</cache>
     </property>
@@ -130,6 +164,10 @@
     </property>
   </object>
   <object>
+    <name>Test.C-Broken</name>
+    <number>0</number>
+    <className>XWiki.XWikiRights</className>
+    <guid>d82941e4-cbe1-43fb-a49d-f5f8e0a033bf</guid>
     <class>
       <name>XWiki.XWikiRights</name>
       <customClass/>
@@ -195,10 +233,6 @@
         <classType>com.xpn.xwiki.objects.classes.UsersClass</classType>
       </users>
     </class>
-    <name>Test.C-Broken</name>
-    <number>0</number>
-    <className>XWiki.XWikiRights</className>
-    <guid>d82941e4-cbe1-43fb-a49d-f5f8e0a033bf</guid>
     <property>
       <allow>1</allow>
     </property>
@@ -212,25 +246,4 @@
       <users>XWiki.XWikiGuest</users>
     </property>
   </object>
-  <content>{{info}}**Task:** A platinum support client is complaining that the following page is broken, and you must fix it as soon as possible. **No changes allowed in the HTML.**{{/info}}
-
-{{velocity}}{{html}}&lt;a class="test-edit-link css" href="$doc.getURL('edit', 'editor=object&amp;classname=XWiki.StyleSheetExtension&amp;object=0&amp;property=code&amp;x-maximized=TEXTAREA[id=XWiki.StyleSheetExtension_0_code]')"&gt;Edit CSS&lt;/a&gt;{{/html}}{{/velocity}}
-
-{{code}}
-&lt;div class="panel"&gt;
- &lt;h2 class="panelHeader"&gt;Installation de XWiki Enterprise Manager&lt;/h2&gt;
- &lt;div class="panelContent"&gt;
-    L'installation de XWiki Enterprise Manager a échoué !
- &lt;/div&gt;
-&lt;/div&gt;
-{{/code}}
-
-{{html}}
-&lt;div class="panel"&gt;
- &lt;h2 class="panelHeader"&gt;Installation de XWiki Enterprise Manager&lt;/h2&gt;
- &lt;div class="panelContent"&gt;
-    L''installation de XWiki Enterprise Manager a échoué !
- &lt;/div&gt;
-&lt;/div&gt;
-{{/html}}</content>
 </xwikidoc>
