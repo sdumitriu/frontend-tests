@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc version="1.1">
+  <web>Test</web>
+  <name>J-Chain</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1426866066000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1426866248000</date>
+  <contentUpdateDate>1426866248000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Java test: Broken Chain</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}
+1. Read the following code and explain what it does.
+1. Spot the bugs.
+1. How would you improve this API?
+{{/info}}
+
+{{code language="java"}}
+package net.company.collections;
+
+public class Chain&lt;T&gt;
+{
+    Link&lt;T&gt; current;
+
+    int size = 0;
+
+    public void insert(T data)
+    {
+        Link&lt;T&gt; temp = new Link&lt;&gt;(data);
+        temp.setNext(this.current.next);
+        temp.setPrev(this.current);
+        this.current.setNext(temp);
+        this.size++;
+    }
+
+    public T get()
+    {
+        return this.current.data;
+    }
+
+    public void next()
+    {
+        this.current = this.current.next;
+    }
+
+    public void prev()
+    {
+        this.current = this.current.prev;
+    }
+
+    public boolean remove()
+    {
+        this.current.prev.setNext(this.current.getNext());
+        this.current.next.setPrev(this.current.prev);
+        return true;
+    }
+
+    public int size()
+    {
+        return this.size;
+    }
+
+    private class Link&lt;T&gt;
+    {
+        T data;
+
+        Link&lt;T&gt; prev;
+
+        Link&lt;T&gt; next;
+
+        public Link(T dataValue)
+        {
+            this.next = null;
+            this.data = dataValue;
+        }
+
+        public T getData()
+        {
+            return this.data;
+        }
+
+        public void setData(T dataValue)
+        {
+            this.data = dataValue;
+        }
+
+        public Link&lt;T&gt; getNext()
+        {
+            return this.next;
+        }
+
+        public void setNext(Link&lt;T&gt; nextValue)
+        {
+            this.next = nextValue;
+        }
+
+        public Link&lt;T&gt; getPrev()
+        {
+            return this.next;
+        }
+
+        public void setPrev(Link&lt;T&gt; prevValue)
+        {
+            this.prev = prevValue;
+        }
+    }
+}
+{{/code}}</content>
+</xwikidoc>

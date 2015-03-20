@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xwikidoc version="1.1">
+  <web>Test</web>
+  <name>A-Timecourse</name>
+  <language/>
+  <defaultLanguage/>
+  <translation>0</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <creationDate>1426866684000</creationDate>
+  <parent>Test.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <date>1426867161000</date>
+  <contentUpdateDate>1426867161000</contentUpdateDate>
+  <version>1.1</version>
+  <title>Architecture test: Timecourse</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.0</syntaxId>
+  <hidden>false</hidden>
+  <content>{{info}}
+The main purpose of PhenoTips is to capture phenotypic information about patients: symptoms, observations, findings. This information is currently captured as a homogenous set of items, with only a limited way of specifying meta-information about these phenotypes, such as age of onset, severity, or laterality of a symptom, where each meta-information is a standardized category: //childhood// onset (between 1 and 5 years).
+
+Clinicians want to be able to provide more detailed information: a precise age when a symptom appeared, relative ordering between symptoms, or constrain a symptom to just a specific interval, etc.
+
+Design a data model that would be able to capture this information.
+{{/info}}
+</content>
+</xwikidoc>
