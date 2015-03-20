@@ -1167,6 +1167,27 @@
       <rightPanels/>
     </property>
     <property>
+      <showLeftPanels>0</showLeftPanels>
+    </property>
+    <property>
+      <showRightPanels>0</showRightPanels>
+    </property>
+    <property>
+      <showannotations>0</showannotations>
+    </property>
+    <property>
+      <showattachments>0</showattachments>
+    </property>
+    <property>
+      <showcomments>0</showcomments>
+    </property>
+    <property>
+      <showhistory>0</showhistory>
+    </property>
+    <property>
+      <showinformation>0</showinformation>
+    </property>
+    <property>
       <skin>Test.TestSkin</skin>
     </property>
     <property>
